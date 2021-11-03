@@ -1,0 +1,26 @@
+.button {
+    border: none;
+    background: #009578;
+    color: #ffffff;
+    padding: 10px 16px;
+    position: relative;
+    cursor: pointer;
+    font-family: "Fira Sans", sans-serif;
+    overflow: hidden;
+    border-radius: 5px;
+    min-width: 125px;
+}
+
+.button__progress {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    transition: width 0.3s;
+}
+
+.button__text {
+    position: relative;
+}

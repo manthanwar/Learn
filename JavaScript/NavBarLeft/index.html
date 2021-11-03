@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Amit M. Manthanwar, manthanwar@hotmail.com">
+    <meta name="description" content="HTML with CSS and Javascript">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+
+    <title>Navbar</title>
+
+    <link rel="stylesheet" type='text/css' href="mobile.css" media="screen and (min-width: 320px)">
+    <link rel="stylesheet" type='text/css' href="tablet.css" media="screen and (min-width: 800px)">
+    <link rel="stylesheet" type='text/css' href="screen.css" media="screen and (min-width: 1280px)">
+    <link rel="stylesheet" type='text/css' href="printr.css" media="print">
+
+    <script type="application/javascript" src="main.js" defer></script>
+
+    <style>
+        body {
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        .nav-open .nav {
+            transform: translateX(0);
+        }
+
+        .nav-open .main {
+            transform: translateX(350px);
+        }
+
+        .nav {
+            width: 350px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: #333333;
+            transform: translateX(-350px);
+            transition: transform 0.2s;
+            overflow: hidden;
+        }
+
+        .nav-close {
+            background: none;
+            display: flex;
+            align-items: center;
+            border: none;
+            padding: 15px 25px;
+            color: #dddddd;
+            margin-left: auto;
+            cursor: pointer;
+        }
+
+        .nav-close:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .nav-links-container {
+            box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .nav__link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 25px;
+            text-decoration: none;
+            color: #dddddd;
+        }
+
+        .nav__text {
+            font-size: 22px;
+            font-family: "Assistant", sans-serif;
+            font-weight: 500;
+        }
+
+        .nav__link:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .main {
+            transition: transform 0.2s;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <button type="button" class="nav-close" onclick="toggleNav()">
+            <ion-icon name="close-outline" size="large"></ion-icon>
+        </button>
+        <div class="nav-links-container">
+            <a href="#" class="nav__link">
+                <span class="nav__text">Products</span>
+                <ion-icon name="cube-outline" size="large"></ion-icon>
+            </a>
+            <a href="#" class="nav__link">
+                <span class="nav__text">Locations</span>
+                <ion-icon name="location-outline" size="large"></ion-icon>
+            </a>
+            <a href="#" class="nav__link">
+                <span class="nav__text">Settings</span>
+                <ion-icon name="settings-outline" size="large"></ion-icon>
+            </a>
+            <a href="#" class="nav__link">
+                <span class="nav__text">Contact Us</span>
+                <ion-icon name="call-outline" size="large"></ion-icon>
+            </a>
+        </div>
+    </nav>
+    <main class="main">
+        <button onclick="toggleNav()">Open Navigation</button>
+    </main>
+    <script>
+        function toggleNav() {
+            document.body.classList.toggle("nav-open");
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

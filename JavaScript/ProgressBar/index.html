@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Amit M. Manthanwar, manthanwar@hotmail.com">
+    <meta name="description" content="HTML with CSS and Javascript">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+
+    <title>Progress Bar</title>
+
+    <!-- <link rel="stylesheet" type='text/css' href="mobile.css" media="screen and (min-width: 320px)">
+    <link rel="stylesheet" type='text/css' href="tablet.css" media="screen and (min-width: 800px)">
+    <link rel="stylesheet" type='text/css' href="screen.css" media="screen and (min-width: 1280px)">
+    <link rel="stylesheet" type='text/css' href="printr.css" media="print">
+
+    <script type="application/javascript" src="main.js" defer></script> -->
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-y: scroll;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        .contents {
+            width: 80%;
+            margin: 40px auto;
+        }
+
+        .progressBar {
+            position: relative;
+            width: 300px;
+            height: 40px;
+            border: 1px solid red;
+        }
+
+        .progressBarColor {
+            width: 30%;
+            height: 100%;
+            background-color: teal;
+            transition: width 0.5s;
+        }
+
+        .progressBarValue {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+
+        .button {
+            position: relative;
+            padding: 8px 16px;
+            background-color: teal;
+
+            border: none;
+            outline: none;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        .button:active {
+            background-color: teal;
+            opacity: 0.8;
+        }
+
+
+        .button-text {
+            font: bold 18px sans-serif;
+            color: white;
+            transition: all 0.2x;
+
+        }
+
+        .button-loading .button-text {
+            visibility: hidden;
+            opacity: 0;
+        }
+
+
+
+        .button-loading::after {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            /* background-color: red; */
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            border-radius: 50%;
+            border: 4px solid transparent;
+            border-top-color: white;
+            animation: button-loading-spinner 1s linear infinite;
+
+
+        }
+
+        @keyframes button-loading-spinner {
+            from {
+                transform: rotate(0turn);
+            }
+
+            to {
+                transform: rotate(1turn);
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contents">
+        <h1>Progress Bar</h1>
+
+        <br>
+        <br>
+
+        <input type="text" id="input">
+        <button id="myBtn" style="height:20px; width:100px;">Copy</button>
+
+
+
+
+        <script>
+            const inp = document.getElementById('input');
+            const btn = document.getElementById('myBtn');
+
+            btn.onclick = function () {
+
+                inp.select();
+
+                document.execCommand('copy');
+            }
+        </script>
+
+
+
+
+        <br>
+        <br>
+
+        <div class="progressBar">
+            <div class="progressBarValue">40%</div>
+            <div class="progressBarColor"></div>
+        </div>
+
+
+
+        <script>
+            class ProgressBar {
+                constructor(element, initValue = 0) {
+
+                    this.eValue = element.querySelector('.progressBarValue');
+                    this.eColor = element.querySelector('.progressBarColor');
+
+                    // console.log(this.eColor, this.eValue);
+
+                    this.setValue(initValue);
+
+                }
+
+                setValue(newValue) {
+
+                    if (newValue < 0) {
+                        newValue = 0;
+                    }
+
+
+                    if (newValue > 100) {
+                        newValue = 100;
+                    }
+
+                    this.value = newValue;
+
+                    this.update();
+
+
+                }
+
+                update() {
+
+                    const percentage = this.value + '%';
+
+                    this.eColor.style.width = percentage;
+
+                    this.eValue.textContent = percentage;
+
+                }
+
+
+
+
+            }
+
+            const el = document.querySelector('.progressBar');
+            const pb = new ProgressBar(el, 20);
+        </script>
+
+
+
+
+
+
+
+        <br>
+        <br>
+
+
+
+        <button type="button" class="button">
+            <span class="button-text">Save Changes</span>
+
+        </button>
+
+
+        <script>
+            // onclick="this.classList.toggle('button-loading')"
+            const btnLoading = document.querySelector('.button');
+
+            // btnLoading.classList.toggle('button-loading');
+            // btnLoading.classList.add('button-loading');
+
+            // btnLoading.classList.remove('button-loading');
+
+            btnLoading.onclick = function () {
+                btnLoading.classList.add('button-loading');
+            }
+        </script>
+
+
+        <br>
+        <br>
+
+
+        <style>
+            .buttonIcon {
+                display: flex;
+                height: 50px;
+                padding: 0;
+                background: #009578;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                overflow: hidden;
+                font-family: "Quicksand", sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+            .buttonIcon:hover {
+                background: #008168;
+            }
+
+            .buttonIcon:active {
+                background: #006e58;
+            }
+
+            .button__text,
+            .button__icon {
+                display: inline-flex;
+                align-items: center;
+                padding: 0 24px;
+                color: #fff;
+                height: 100%;
+            }
+
+            .button__icon {
+                font-size: 1.5em;
+                background: rgba(0, 0, 0, 0.08);
+            }
+        </style>
+
+        <button type="button" class="buttonIcon">
+            <span class="button__text">Download</span>
+            <span class="button__icon">
+                <ion-icon name="cloud-download-outline"></ion-icon>
+            </span>
+        </button>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </div>
+</body>
+
+</html>

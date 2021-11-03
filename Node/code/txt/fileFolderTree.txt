@@ -1,0 +1,118 @@
+📝 U+1F4DD - Memo
+📁 U+1F4C1 - File folder
+📂 U+1F4C2 - Open file folder
+├  U+251C  - Box Drawings Light Vertical and Right
+─  U+2500  - Box Drawings Light Horizontal
+└  U+2514  - Box Drawings Light Up and Right
+│  U+2502  - Box Drawings Light Vertical
+
+https://en.wikipedia.org/wiki/Box-drawing_character
+https://www.unicode.org/charts/PDF/U2500.pdf
+
+
+
+📁 root
+├── 📁 dir1
+│   └── file1
+└── 📁 dir2
+    └── file2
+
+
+
+📁 Management Team -MAN
+├── 📁 MDC [Managing Director Chair] - Grade A01 - borard of Trusty
+├── 📁 BAP [Business Advisory Panel] - Grade B01 - steering committee
+├── 📁 MAA [Mentor Academic Advisor] - Grade B02 - honorary committee
+├── 📁 CEO [Chief Executive Officer] - Grade C01 - Founder
+└── 📁 CTO [Chief Technical Officer] - Grade C02 - Founder
+
+📁 Leadership Team - CXO
+├── 📁 CEO [Chief Executive Officer] - Grade C01
+├── 📁 CTO [Chief Technical Officer] - Grade C02
+├── 📁 COO [Chief Operating Officer] - Grade C03
+├── 📁 CFO [Chief Financial Officer] - Grade C04
+└── 📁 CMO [Chief Marketing Officer] - Grade C05
+
+📁 Business Advisory Panel - BAP
+├── 📁 GOD [Guru Offering Direction] - Grade C02 - doctrain strategy
+├── 📁 VIP [Visionary Investor Pros] - Grade B02 - business partners
+├── 📁 BAL [Brand Ambassador Leader] - Grade A01 - public influencer
+├── 📁 SLT [Social Life Transformer] - Grade B01 - socital activists
+└── 📁 AAP [Attorney and Prosecutor] - Grade C01 - legal counsellors
+
+
+📁 Company - Organization Structure - COM
+├── 📁 CEO [Chief Executive Officer] - Grade C01
+│   ├── 📁 SMA - Secretary Monetory Affairs - generate funding
+│   ├── 📁 SIA - Secretary Internal Affairs - organizational leadership
+│   ├── 📁 SEA - Secretary External Affairs - network, relations and publicity
+│   ├── 📁 SCA - Secretary Communal Affairs - corporate social responsibility
+│   └── 📁 SSA - Secretary Security Affairs - legal and data security
+├── 📁 CTO [Chief Technical Officer] - Grade C02
+│   ├── 📁 MKD - Manager Knowledge Development: internal research - Grade D01
+│   ├── 📁 MRD - Manager Relations Development - collaborative research - D02
+│   ├── 📁 MAD - Manager Analytics Development - applied research tools - E03
+│   ├── 📁 MSD - Manager Solutions Development - application prototypes - E04
+│   └── 📁 MTI - Manager Technical Information - IP, pubs, digital data - F05
+├── 📁 COO [Chief Operating Officer] - Grade C03
+│   ├── 📁 MVP - Manager Value Provider - service and solutions
+│   ├── 📁 MGS - Manager Goods Supplier - products and technology
+│   ├── 📁 MAG - Manager Asset Governer - management
+│   ├── 📁 MHR - Manager Human Resource - management
+│   └── 📁 MLR - Manager Legal Resource - management
+├── 📁 CFO [Chief Financial Officer] - Grade C04
+│   ├── 📁 MAM - Manager Account Management - Tax, audit, operations
+│   ├── 📁 MRM - Manager Revenue Management - sales, services, licencing
+│   ├── 📁 MFM - Manager Funding Management - goverment and foundation grants
+│   ├── 📁 MSM - Manager Sponsor Management - finance and equity partnership
+│   └── 📁 MGM - Manager Gifting Management - charitable donations
+└── 📁 CMO [Chief Marketing Officer] - Grade C05
+    ├── 📁 MMR - Manager Market Research - industry, competition, target
+    ├── 📁 MAR - Manager Agency Relation - government and corporations
+    ├── 📁 MCR - Manager Client Relation - customer, small medium enterprises
+    └── 📁 MSR - Manager Social Relation - physical and virtual media
+    └── 📁 MTP - Manager Talent Provider - in-office, on-site, remote training
+
+
+📁 root
+├── 📁 admin
+│   ├── 📁 ceo
+│   ├── 📁 cfo
+│   ├── 📁 cio
+│   ├── 📁 cmo
+│   ├── 📁 coo
+│   ├── 📁 cto
+│   ├── 📁 txt
+├── 📁 code
+│   ├── 📁 gis
+│   ├── 📁 js
+│   ├── 📁 py
+│   ├── 📁 sql
+│   ├── 📁 txt
+│       ├── 📝 fileFolderTree.txt
+│  
+├── 📁 public
+│   ├── 📁 media
+│   │   ├── 📁 jpg
+│   │   ├── 📁 png
+│   │   ├── 📁 svg
+│   │   └── 📁 avi
+│   ├── code
+│       ├── 📁 css
+│       ├── 📁 gis
+│       ├── 📁 js
+│       └── 📁 avi
+│  
+├── 📁 views
+│   ├── 📁 layouts
+│   │   ├── 📝 main.hbs
+│   ├── 📁 partials
+│   │   ├── 📁dir
+│   │   │   └── 📝 dirPartial.hbs
+│   │   ├── 📝 footer.hbs
+│   │   ├── 📝 header.hbs│
+│   │
+│	  │
+│   ├── 📁 home.hbs
+
+

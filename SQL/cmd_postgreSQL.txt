@@ -1,0 +1,113 @@
+heroku run bash
+
+
+"C:\Program Files\PostgreSQL\14\scripts\runpsql.bat"
+
+
+runpsql.bat
+
+psql -U postgre postgre
+
+
+
+SELECT * FROM pg_roles;
+SELECT rolname FROM pg_roles;
+
+CREATE DATABASE myDatabase WITH ENCODING 'UTF8'
+
+CREATE SCHEMA information;
+
+SET search_path to information;
+
+CREATE TABLE student(studentid int, studentname varchar(255));
+
+CREATE TABLE teacher(teacherid int, teachername varchar(255));
+
+CREATE TABLE subject(subjectid int, subjectname varchar(255));
+
+select pg_relation_size('teacher');
+
+SELECT pg_size_pretty (pg_relation_size('teacher'));
+
+
+# connect to db
+psql -d database -U username -W
+
+# swith to database
+\c dbname username
+
+# list databases
+\l
+
+# list tables
+\dt
+
+# describe a table
+\d tableName
+
+# list available schema
+\dn
+
+# list available functions
+\df
+
+# list available views
+\dv
+
+# list users and their roles
+\du
+
+# execute psql commands from a file
+\i filename
+
+# get help on psql commands
+\?
+
+# turn on query execution time
+\timing
+
+# quit psql
+\q
+exit
+
+
+CREATE DATABASE dvdrental;
+
+
+
+pg_restore -U postgres -d dvdrental E:\Library\Software\SQL\postgresSampleDB_dvdrental\dvdrental.tar
+
+
+# CONFIG VARS
+postgres://username:password@hostname:port/database
+
+
+postgres://byormiexzxworv:439e2e7fb92b740e9ac9e9c082026a117600d5fdec764217a22e44e1fd6e9e54@ec2-3-222-235-188.compute-1.amazonaws.com:5432/d9sb3povhm6u4u
+
+
+
+
+
+
+Database Credentials
+
+Get credentials for manual connections to this database.
+
+Please note that these credentials are not permanent.
+
+Heroku rotates credentials periodically and updates applications where this database is attached.
+
+Host
+    ec2-3-222-235-188.compute-1.amazonaws.com
+Database
+    d9sb3povhm6u4u
+User
+    byormiexzxworv
+Port
+    5432
+Password
+    439e2e7fb92b740e9ac9e9c082026a117600d5fdec764217a22e44e1fd6e9e54
+URI
+    postgres://byormiexzxworv:439e2e7fb92b740e9ac9e9c082026a117600d5fdec764217a22e44e1fd6e9e54@ec2-3-222-235-188.compute-1.amazonaws.com:5432/d9sb3povhm6u4u
+Heroku CLI
+    heroku pg:psql postgresql-parallel-71923 --app amitworld

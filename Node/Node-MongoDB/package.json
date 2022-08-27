@@ -1,0 +1,23 @@
+{
+  "name": "node-mongodb",
+  "version": "1.0.0",
+  "description": "Node MongoDB Sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manthanwar/Learn.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "MongoDB"
+  ],
+  "author": "Amit M. Manthanwar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manthanwar/Learn/issues"
+  },
+  "homepage": "https://github.com/manthanwar/Learn#readme"
+}

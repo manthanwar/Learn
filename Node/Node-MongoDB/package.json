@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/manthanwar/Learn/issues"
   },
-  "homepage": "https://github.com/manthanwar/Learn#readme"
+  "homepage": "https://github.com/manthanwar/Learn#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }

@@ -1,4 +1,4 @@
-📝 U+1F4DD - Memo
+m📝 U+1F4DD - Memo
 📁 U+1F4C1 - File folder
 📂 U+1F4C2 - Open file folder
 ├  U+251C  - Box Drawings Light Vertical and Right

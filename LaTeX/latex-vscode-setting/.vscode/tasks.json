@@ -1,0 +1,71 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "latex",
+            "type": "shell",
+            "command": "latex",
+            "args": [
+                "${file}",
+                "--synctex=1"
+            ],
+            "problemMatcher": [],
+            "presentation": {
+                "revealProblems": "onProblem",
+                "close": true
+            }
+        },
+        {
+            "label": "latex arara",
+            "type": "shell",
+            "command": "arara",
+            "args": [
+                "${file}"
+            ],
+            "options": {
+                // "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "revealProblems": "onProblem",
+                "close": true
+            }
+        },
+        {
+            "label": "latex clean",
+            "type": "shell",
+            "command": "rm",
+            "args": [
+                "*.aux,",
+                "*.log,",
+                "*.dvi,",
+                "*.ps"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "silent",
+                "revealProblems": "onProblem",
+                "close": true
+            },
+        },
+        {
+            "label": "clean build", // THE BUILD TASK
+            "isBuildCommand": true, // THIS KEY IDENTIFIES THE VSCODE BUILD TASK, RUN USING F1 => TASK BUILD
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": [
+                "latex clean",
+                "latex arara",
+                "latex clean",
+            ], // THE MAGIC TO RUN MULTIPLE BUILD TASK BY TASKNAME
+            "dependsOrder": "sequence"
+        },
+    ]
+}

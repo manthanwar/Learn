@@ -1,0 +1,39 @@
+% arara: latex: { options: ['--synctex=1']}
+% arara: bibtex: { options: [ '-terse' ] }
+% arara: --> if exists(toFile('references.bib'))
+% arara: latex: { options: ['--synctex=1']}
+% arara: dvips
+% arara: ps2pdf
+% arara: clean: { extensions: [ aux, log, dvi, ps ] }
+\documentclass[a4paper,11pt]{article}
+\usepackage{pstricks}
+\title{Proramming LaTeX with Visual Studio Code Editor}
+\author{Amit M. Manthanwar}
+\begin{document}
+\maketitle
+\section{Synctex Shortcuts}
+Use the following shortcuts for synctex (aka `jumping`' between code and pdf):
+\begin{itemize}
+    \item from code to pdf:
+          \begin{itemize}
+              \item mac: \verb|cmd + option + j|
+              \item windows/linux: \verb|ctrl + alt + j|
+          \end{itemize}
+    \item from pdf to code: \verb"ctrl + click"
+\end{itemize}
+
+Make sure to enable synctex in the \verb|settings.json|.
+\begin{verbatim}
+"latex-workshop.synctex.synctexjs.enabled": true,
+"latex-workshop.synctex.afterBuild.enabled": true,
+"latex-workshop.view.pdf.viewer": "tab",  
+\end{verbatim}
+
+\section{Draw Circle}
+\begin{figure}[ht]
+    \centering
+    \begin{pspicture}[showgrid](0,0)(5,5)
+    \pscircle[fillstyle=solid,fillcolor=red](2,2){1}
+\end{pspicture}
+\end{figure}
+\end{document}

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>A simple, clean, and responsive HTML invoice template</title>
+
+    <style>
+        a {
+            text-decoration: none;
+            color: teal;
+        }
+
+
+        .invoiceContainer {
+            width: 80%;
+            margin: 40px auto;
+            position: relative;
+        }
+
+        .invoice {
+            max-width: 800px;
+            margin: auto;
+            padding: 30px 60px;
+            border: 1px solid #eee;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            font-family: Consolas, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            /* font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+            font-size: 18px;
+            line-height: 24px;
+            color: #555;
+
+            position: relative;
+
+            border-bottom: 4px solid teal;
+
+        }
+
+        .invoiceLogo {
+            width: 120px;
+            height: 120px;
+
+            margin-left: -8px;
+
+
+
+            /* position: absolute; */
+            /* top: 20px; */
+            /* left: 40px; */
+
+            /* border: 1px solid green; */
+        }
+
+        .invoiceOwner {
+            display: flex;
+            position: absolute;
+            top: 31px;
+            left: 200px;
+            height: 120px;
+            align-items: center;
+            font-size: 16px;
+            font-family: 'Segoe UI';
+            /* border: 1px solid red; */
+
+        }
+
+        .invoiceBanner {
+            position: absolute;
+            width: 150px;
+            /* width: fit-content; */
+            height: 40px;
+            padding: 0 20px;
+
+            top: 0px;
+            right: 70px;
+
+            margin: auto;
+
+            text-transform: uppercase;
+            font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+            font-size: 28px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background-color: #eee;
+            color: #999;
+
+        }
+
+        .invoiceBanner::after {
+            content: '';
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: 40px;
+            /* left: 20px; */
+
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-top: 30px solid #eee;
+            /* border-top: 30px solid red; */
+        }
+
+
+
+
+        .invoiceNumber {
+            /* position: relative; */
+            display: grid;
+            grid-template-columns: 0.8fr 1fr;
+            width: fit-content;
+            float: right;
+            /* clear: both; */
+            margin-top: -30px;
+            /* margin-bottom: 40px; */
+            /* border: 1px solid red; */
+        }
+
+        .invoiceNumber div:nth-child(odd) {
+            /* display: inline-block; */
+            font-weight: bold;
+            /* text-align: right; */
+            margin-right: 10px;
+            /* padding: 0; */
+            /* background-color: yellowgreen; */
+        }
+
+        .invoiceNumber div:nth-child(even) {
+            /* display: inline-block; */
+            text-align: right;
+            /* background-color: pink; */
+        }
+
+
+
+
+        .invoiceAddress {
+            /* position: relative; */
+            /* display: flex; */
+            /* flex-direction: column; */
+            /* column-gap: 100px; */
+
+            /* width: fit-content; */
+            margin-top: 40px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            /* border: 1px solid red; */
+        }
+
+
+        .invoiceAddressTag {
+            /* font-weight: bold; */
+        }
+
+
+
+
+        .invoiceTable {
+            display: grid;
+            /*                      No  Desc  Qt  rate tax  total */
+            grid-template-columns: 5fr 45fr 10fr 10fr 10fr 10fr;
+            /* margin-bottom: 10px; */
+            /* text-align: right; */
+            text-align: center;
+            /* border: 1px solid red; */
+
+            padding: 6px 0;
+
+            /* border-top: 1px solid black; */
+            /* border-left: 1px solid black; */
+        }
+
+        .invoiceTable:first-of-type {
+            /* text-align: center; */
+            /* color: teal; */
+            /* font-weight: bold; */
+        }
+
+
+        .invoiceTable:first-of-type,
+        .invoiceTable:last-of-type {
+            font-weight: bold;
+            background-color: #f5f5f5;
+            padding: 10px 0;
+        }
+
+
+
+        .invoiceTable:not(:first-of-type, :last-of-type):hover {
+            background-color: #F7FFF6;
+
+        }
+
+
+        .invoiceTable:last-of-type div:last-of-type {
+            /* background-color: teal; */
+            /* color: white; */
+            /* color: teal; */
+            /* font-size: 24px; */
+            /* font-family: 'Segoe UI'; */
+            /* font-weight: bold; */
+            /* padding: 8px 0px; */
+
+
+        }
+
+        .invoiceTable:not(:first-of-type) div:nth-child(n+4) {
+            /* content: '\20AC'; */
+            /* text-align: right; */
+            /* margin-left: 44px; */
+            /* padding-right: 20px; */
+
+        }
+
+
+        .invoiceTable:not(:first-of-type) div:nth-child(n+4)::before {
+            /* content: '\20AC'; */
+            margin-right: 4px;
+
+        }
+
+
+
+        .invoicePaymentInfo {
+            margin-top: 20px;
+            font-size: 16px;
+
+        }
+
+        .invoiceThanks {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+
+
+        @media screen and (max-width: 660px) {
+            .flexContainerInvoiceHeader {
+                display: block;
+            }
+
+            .invoiceNumber {
+                display: block;
+                /* grid-template-columns: 1; */
+                /* text-align: left; */
+            }
+
+            .invoiceNumber div {
+                display: block;
+                text-align: left;
+                margin: 0;
+            }
+
+            .invoiceNumber div:nth-child(even) {
+                display: block;
+            }
+        }
+
+
+        .invoiceBalanceDue {
+            position: absolute;
+            font-family: 'Segoe UI';
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px 20px 12px 20px;
+            /* background-color: teal; */
+            /* color: white; */
+            top: 230px;
+            right: 40px;
+        }
+
+        .invoiceBalanceDueAmount {
+            padding: 10px 20px 12px 20px;
+            background-color: teal;
+            color: white;
+        }
+
+
+        #londonTubeRing {
+            /* fill: teal; */
+        }
+
+        #londonTubeRect {
+            /* fill: darkred; */
+            /* fill: teal; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <svg style="display: none">
+        <defs>
+            <symbol id="londonTube" width="62" height="62" viewBox="0 0 62 62">
+                <circle id="londonTubeRing" cx="31" cy="31" r="21.5" mask="url(#rmvCir)" fill="red" />
+                <mask id="rmvCir">
+                    <circle id="base" cx="31" cy="31" r="21.5" fill="white"></circle>
+                    <circle id="base" cx="31" cy="31" r="14" fill="black"></circle>
+                </mask>
+                <rect id="londonTubeRect" x="4.5" y="26.5" width="53" height="9" fill="navy" />
+                <text id="londonTubeText" class="londonTubeText" x="31" y="31" dy="0" dominant-baseline="middle"
+                    text-anchor="middle" fill="white" font-size="8px">London</text>
+            </symbol>
+        </defs>
+
+    </svg>
+
+    <div class="invoiceContainer">
+
+        <div class="invoice">
+
+            <!-- <div class="invoiceBanner">Quotation</div> -->
+            <!-- <div class="invoiceBanner">Quote</div> -->
+
+            <div class="invoiceBanner">Invoice</div>
+
+            <!-- <div class="invoiceBanner">Receipt</div> -->
+
+
+            <div class="invoiceLogo">
+                <svg viewBox="0 0 100 100">
+                    <a class="iconLink" href="{{url}}" title="{{title}}">
+                        <use transform="scale(1.61239)" id="use" href="#londonTube" />
+                    </a>
+                </svg>
+            </div>
+
+
+
+            <div class="invoiceOwner">
+                Address Line <br>
+                City, Post Code, Country <br>
+                Phone &bullet; Email
+            </div>
+
+            <div class="invoiceNumber">
+                <!-- <div> <b>Number:</b> {{number}}</div>
+                    <div> <b>Issued:</b> {{issued}}</div>
+                    <div> <b>Due On:</b> {{due_On}}</div> -->
+                <!-- <div> <b>Number:</b> 9116021-221</div>
+                    <div> <b>Number:</b> 01521029991</div> -->
+                <!-- <div><b>Invoice</b></div> -->
+
+                <div>Number:</div>
+                <div>USTXATE001Q</div>
+                <div>Issued:</div>
+                <!-- <div>12 September 2022</div> -->
+                <div>12 Sep 2022</div>
+                <div>Due On:</div>
+                <!-- <div>10 February 2020</div> -->
+                <div>10 Feb 2020</div>
+
+            </div>
+
+
+            <div class="invoiceAddress">
+                <div class="invoiceAddressItem">
+                    <div class="invoiceAddressTag">
+                        Bill To:
+                    </div>
+                    <div class="invoiceAddressTo">
+                        Name <br>
+                        Address first Line <br>
+                        City, Post Code, Country <br>
+                        Phone &bullet; Email
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="invoiceTableContainer">
+                <div class="invoiceTable">
+                    <div>No</div>
+                    <div>Item Description</div>
+                    <div>Quantity</div>
+                    <!-- <div>Qty</div> -->
+                    <div>Rate</div>
+                    <div>Tax</div>
+                    <div>Price</div>
+                </div>
+
+                <div class="invoiceTable">
+                    <div>1</div>
+                    <div>Software License</div>
+                    <div>1</div>
+                    <div>200</div>
+                    <div>20</div>
+                    <div>220</div>
+                </div>
+                <div class="invoiceTable">
+                    <div>2</div>
+                    <div>Software License</div>
+                    <div>1</div>
+                    <div>200</div>
+                    <div>20</div>
+                    <div>220</div>
+                </div>
+                <div class="invoiceTable">
+                    <div>3</div>
+                    <div>Software License</div>
+                    <div>1</div>
+                    <div>200</div>
+                    <div>20</div>
+                    <div>220</div>
+                </div>
+                <div class="invoiceTable">
+                    <div>4</div>
+                    <div>Software License</div>
+                    <div>1</div>
+                    <div>200</div>
+                    <div>20</div>
+                    <div>220</div>
+                </div>
+                <div class="invoiceTable">
+                    <div>5</div>
+                    <div>Software License</div>
+                    <div>1</div>
+                    <div>200</div>
+                    <div>20</div>
+                    <div>220</div>
+                </div>
+
+                <div class="invoiceTable">
+                    <div></div>
+                    <div>Total</div>
+                    <div>5</div>
+                    <div>1000</div>
+                    <div>100</div>
+                    <div>1100</div>
+                </div>
+            </div>
+
+
+
+            <div class="invoicePaymentInfo">
+                <div><b>Payment Information</b></div>
+                <!-- 
+                <div class="invoicePaymentDetails">
+                    <div>Account Number:</div>
+                    <div>USTXAT-E001-P01Q</div>
+                    <div>Account Holder:</div>
+                    <div>Account Banker:</div>
+                </div> -->
+
+                <div>Account Number: <span>USTXAT-E001-P01Q</span></div>
+                <div>Account Holder: <span>First Middle Last</span></div>
+                <div>Account Banker: <span>Bank of America</span></div>
+                <!-- <div>Account Address:
+                    <span>
+                        1 Wall Street <br>
+                        New World <br>
+                        Universe
+                    </span>
+                </div> -->
+            </div>
+
+
+            <div class="invoiceBalanceDue">
+                Balance Due:
+                <span class="invoiceBalanceDueAmount">
+                    &#x20AC; 1100 . 00
+                </span>
+            </div>
+
+            <div class="invoiceThanks">
+                <!-- <div>Thank you for doing business with us</div> -->
+                <div><a href="http://materich.herokuapp.com">materich.com</a></div>
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+
+<!-- 
+<div>
+
+    Number = CC-SS-CT-ET-ID-OT-ON
+    Number = CC-SS-CT + ET--ES-ID + OT-ON-RT
+    Sample = 911602-12220-1
+    Sample = USTXAT-E001-P01Q
+    Sample = 01-52-10-2-99-1-12
+
+    CC = Alp-2 ISO Country Code = converted to 2 digits
+    SS = Alp-2 ISO state code = converted to 2 digits
+    CT = City code
+    ET = Entity/Customer Type
+    ES = Entity Sub Type
+    ID = Entity/Customer ID
+    OT = Offering Type
+    ON = Offering Number = e.g. Product Number
+    RT = Document Type
+    NT = Number pf Times Offered = count dates
+
+    ET = Entity Type
+    B2A = 1 = Government Agency
+    B2B = 2 = Business
+    B2C = 3 = Corporate
+    B2D = 4 = Donation
+    B2E = 5 = Education
+
+    ES = Entity Sup = 0 - 9 - A - Z = 1260 Unique
+
+    ID = Entity ID = 0 - 9 - A - Z = 1260 Unique
+
+
+    RT = Record/Document Type
+    Q = 1 = Quotation
+    I - 2 = Invoice
+    R = 3 = Receipt
+    B = 4 = Budget for Proposal
+
+
+    OT = Type of Offering
+    P = 1 = Product - Hardware
+    S = 2 = Support
+    C = 3 = Consultancy
+    T = 4 = Training
+    A = 5 = Application Software
+    M = 6 = Membership
+    L = 7 = License for Subscription
+
+   
+    January
+    February
+    March
+    April
+    May
+    June
+    July
+    August
+    September
+    October
+    November
+    December
+</div> -->

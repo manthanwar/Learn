@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src='main.js'></script> -->
+  </head>
+  <body>
+    Hi
+
+    <p id="divSvg"></p>
+
+    <div id="svgD"></div>
+
+    <svg id="svgMain" width="300" height="300"></svg>
+
+    <script type="text/javascript">
+      window.addEventListener("load", function () {
+        var divSvg = document.getElementById("divSvg");
+        divSvg.innerHTML = "Hi There";
+        divSvg.setAttribute("style", "color:red;font-weight:bold;");
+
+        // var svg = document.getElementsByTagName('svg')[0];
+
+        var svgMain = document.getElementById("svgMain");
+        svgMain.setAttribute("style", "background-color:red;");
+
+        // console.log(iconSvg);
+        let NS = "http://www.w3.org/2000/svg";
+        let svg = document.createElementNS(NS, "svg");
+
+        svg.setAttribute("width", "100%");
+        // svg.setAttribute("height", "200");
+        // svg.setAttribute("viewBox", "0 0 200 200");
+        // svg.setAttribute("viewBox", "0 0 300 200");
+
+        // svg.setAttribute("fill", "green");
+        // svg.setAttribute("stroke", "black");
+
+        //   iconSvg.classList.add("post-icon");
+
+        let element = document.createElementNS(NS, "circle");
+
+        element.setAttribute("cx", "100");
+        element.setAttribute("cy", "100");
+        element.setAttribute("r", "100");
+        element.setAttribute("fill", "blue");
+
+        var elementT = document.createElementNS(NS, "text");
+        elementT.setAttributeNS(null, "x", 5);
+        elementT.setAttributeNS(null, "y", 35);
+        elementT.setAttributeNS(
+          null,
+          "style",
+          " font: bold 30px sans-serif; fill:yellow;"
+        );
+
+        var txt = document.createTextNode("Hello World");
+        elementT.appendChild(txt);
+
+        svg.appendChild(element);
+        svg.appendChild(elementT);
+
+        var svgMainWidth = document.getElementById("svgMain").clientWidth;
+        // alert(svgMainWidth);
+
+        var scaleVal = svgMainWidth/200;
+
+        svg.setAttribute('transform', 'scale('+scaleVal+')');
+
+        svgMain.appendChild(svg);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<style type="text/css">
+    :root {
+        --flagIN-red: #FF9933;
+        --flagIN-green: #138808;
+        --flagIN-blue: #000080;
+    }
+</style>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+
+    <link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="flagStyle.css" type="text/css" />
+
+    <rect x="0" y="0" width="900" height="200" fill="var(--flagIN-red)" />
+    <rect x="0" y="200" width="900" height="200" fill="white" />
+    <rect x=" 0" y="400" width="900" height="200" fill="var(--flagIN-green)" />
+    <circle cx=" 450" cy="300" r="100" fill="red" />
+
+
+    <g >
+        <rect x="450" y="300" width="400" height="100" transform="rotate(-20 450 300)"/>
+    </g>
+
+    <rect x="70" y="30" width="200" height="40"  
+ transform="rotate(0 50 50)" style="fill: black;"/>  
+
+
+</svg>

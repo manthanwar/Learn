@@ -24,4 +24,18 @@
  transform="rotate(0 50 50)" style="fill: black;"/>  
 
 
+
+ <!-- <path d="M 10 10 H 90 V 90 H 10 L 10 10"/> -->
+ <!-- <path d="M 10 300 H 300 V 400 H 10 L 10 300" fill='blue'/> -->
+<!-- <path d="M 100 220 H 220 V 330 H 100 Z" fill="none" stroke="black" stroke-width="10"/> -->
+<!-- <path d="M 100 220 h 220 v 130 h -100 Z" fill="none" stroke="black" stroke-width="10"/> -->
+
+<!-- <polygon points="10 300 300 300 300 400" /> -->
+
+
+<!-- <path d="M 10 200 C 0 00 400 200 200 300" stroke="blue" fill="transparent" stroke-width="10"/> -->
+
+
+<path d="M 200 300 A 100 100 0 0 0 100 400 " stroke="purple" fill="transparent" stroke-width="10"/>
+
 </svg>

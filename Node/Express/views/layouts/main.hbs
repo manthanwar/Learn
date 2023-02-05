@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    {{!--
+    <link rel="icon" href="/media/ico/favicon.ico"> --}}
+
+
+    <link rel="icon" href="/media/svg/bap.svg" sizes="any" type="image/svg+xml">
+    <link rel="icon" type="image/png" href="/media/png/bap.png">
+
+
+    <title>{{ title }}</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='code/css/smartArt.css'>
+    <script src='main.js'></script>
+
+
+    <link rel="stylesheet" type="text/css" href="code/css/styleArt.css">
+
+
+    <script src="code/js/scriptArt.js" defer></script>
+
+
+
+
+</head>
+
+<body>
+    {{> header }}
+
+    <div class="contents">
+
+        {{{body}}}
+
+    </div>
+
+
+    {{> footer }}
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "colortest",
+  "version": "1.0.0",
+  "description": "Test Color Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "color"
+  ],
+  "author": "Amit M. Manthanwar",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "file:../colors"
+  }
+}

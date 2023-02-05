@@ -1,0 +1,1035 @@
+body {
+    margin: 0;
+    margin-left: 5%;
+    margin-right: -5%;
+    width: 90%;
+
+    overflow: hidden;
+
+
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    font-size: 16px;
+    font-weight: 400;
+
+
+
+}
+
+
+blockquote {
+    font-family: Parisienne, 'Dancing Script', Belleza, Tangerine, serif;
+    font-size: 2rem;
+    /* line-height: 1; */
+    background: whitesmoke;
+    border-left: 10px solid gray;
+    margin-left: 5%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    quotes: "\275D""\275E""\201C""\201D""\2018""\2019";
+    /* '&ldquo;' '&rdquo;' ' 	&lsquo;' '&rsquo;'*/
+    /* font-size: 1rem; */
+    width: 90%;
+
+    box-shadow: 2px 2px 10px 2px rgb(170, 170, 170);
+}
+
+blockquote:before {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    content: open-quote;
+    font-size: 3rem;
+    padding-left: 14px;
+    vertical-align: -0.3rem;
+}
+
+cite {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: tomato;
+    padding-left: 3rem;
+
+}
+
+blockquote:after {
+    font-family: Tangerine, serif;
+    color: #ccc;
+    content: close-quote;
+    font-size: 1rem;
+    margin-left: 0.2em;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+div.headerContainer {
+    /* background-color: greenyellow; */
+    margin-top: 0;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+
+}
+
+.header {
+    background-color: white;
+    /* border-left: 10px solid #FF9933; */
+    border-left: 10px solid DarkOrange;
+    position: fixed;
+    /* top: 0; */
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-size: 30px;
+    text-decoration: none;
+
+    width: 100%;
+    height: 40px;
+
+
+    /* box-shadow: 2px 2px 10px 2px rgb(170, 170, 170); */
+
+}
+
+.header:hover {
+    /* border-left: 10px solid orangered;
+    text-shadow: 2px 2px 10px 2px rgb(170, 170, 170); */
+    /* text-decoration: underline; */
+    /* color: whitesmoke; */
+
+}
+
+
+#logo1 {
+    color: orangered;
+    font-weight: bold;
+}
+
+#logo2 {
+    color: #000080;
+}
+
+#logo3 {
+    /* color: #138808; */
+    color: darkgreen;
+    font-weight: bold;
+}
+
+a.bapHome:link,
+a.bapHome:visited {
+    /* color: black; */
+    /* padding-left: 40px; */
+    /* margin-left: 20px; */
+    /* text-align: left; */
+    text-decoration: none;
+    /* display: inline-block; */
+    width: 50px;
+    /* box-sizing: border-box; */
+    /* margin: 0px; */
+    /* box-sizing: content-box; */
+}
+
+
+a.bapHome:hover,
+a.bapHome:active {
+    /* background-color: orangered; */
+    text-decoration: none;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 97%;
+    /* background: aqua; */
+    display: flex;
+    margin-top: 0px;
+    /* position: relative; */
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 16px;
+    line-height: 24px;
+
+
+}
+
+.mainLeft {
+    position: relative;
+    margin-top: 100px;
+    width: 300px;
+    background: whitesmoke;
+    /* margin-left: -10px; */
+
+}
+
+.mainMiddle {
+    margin-top: 100px;
+    width: calc(100% - 500px);
+    /* width: 100%; */
+}
+
+.mainRight {
+    position: relative;
+    margin-top: 100px;
+    width: 200px;
+    background: whitesmoke;
+    position: relative;
+}
+
+div.allSelectContainers {
+    margin-top: 20px;
+    /* box-shadow: 2px 2px 10px 2px rgb(170, 170, 170); */
+
+    /* padding: 10px; */
+    /* padding-top: 2px; */
+    width: 90%;
+    height: 94%;
+    /* background-color: violet; */
+}
+
+div.myContent {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: justify;
+    color: black;
+    /* margin-top: 10px; */
+    /* margin-left: 2.5%; */
+    /* margin-right: 2.5%; */
+    padding-left: 20px;
+    padding-right: 40px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: calc(100% - 30px);
+    height: 100%;
+    z-index: 0;
+    flex-direction: column;
+    /* background-color:teal; */
+}
+
+div.mapContainer {
+    /* margin: 0; */
+    /* padding:10px; */
+    position: relative;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: -20px;
+    width: calc(100% + 42px);
+    height: 90%;
+    overflow-x: h5dden;
+    overflow-y: hidden;
+    z-index: 1;
+
+
+}
+
+#loadingContainerID {
+    position: relative;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+#loadingContainerID img {
+    margin: auto;
+
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+
+
+div.footer {
+    font-family: Arial, 'Segoe UI', Belleza;
+    font-size: 0.85rem;
+    padding-left: 10px;
+
+    color: white;
+    /* border-top: 1px dashed whitesmoke; */
+    /* margin-top: 100px; */
+    /* margin-top: 20px; */
+    /* margin-left: -10px; */
+    /* padding: 10px; */
+    background-color: #333;
+    /* height:10px; */
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    /* box-shadow: 2px 2px 10px 2px rgb(170, 170, 170); */
+    /* position: fixed; */
+    /* overflow: hidden; */
+
+    position: absolute;
+    z-index: 2;
+}
+
+.checkBoxDiv {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding-bottom: 20px; */
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    margin-top: 50px;
+    width: inherit;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.topnav a.navHome {
+    background-color: darkgreen;
+    color: white;
+    position: relative;
+    width: calc(15% - 10px);
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.topnav a.navHome:hover {
+    background-color: green;
+    cursor: auto;
+}
+
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    /* padding: 14px 16px; */
+    /* padding-left: -20px; */
+    text-decoration: none;
+    /* font-size: 17px; */
+}
+
+.topnav a.login {
+    float: right;
+    font-size: 0.9rem;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: right;
+
+
+}
+
+
+/* .login::before {
+font-size: 1.rem;
+content: '\2654';
+} */
+
+/* .topnav a.icon {
+font-size: inherit;
+float: right;
+} */
+
+
+.topnav .icon {
+    display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    /* width:50px; */
+}
+
+.dropdown .dropbtn {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: white;
+    /* padding: 14px 16px; */
+
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    /* width: 140px; */
+
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.dropdown .dropbtn::after {
+    content: '\25BC';
+    font-family: inherit;
+    font-size: 0.7rem;
+    /* font-weight: bold; */
+    color: silver;
+
+}
+
+.dropdown .dropbtn:hover::after {
+    content: '\25BC';
+    font-family: inherit;
+    font-size: 0.7rem;
+    /* font-weight: bold; */
+    color: orange;
+
+}
+
+
+/* .dropDownArrow {
+    font-size: 0.7rem;
+    color: silver;
+} */
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    /* padding: 20px 16px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
+
+
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/* SELECT BOX */
+
+.boxSelect {
+    /* position: absolute; */
+    margin: 10px;
+    margin-top: -6px;
+    margin-left: 30px;
+
+
+
+}
+
+.boxSelect select {
+    background: whitesmoke;
+    /* color: #fff; */
+    /* padding: 8px; */
+    width: 90%;
+    height: 40px;
+    border: none;
+    font-family: inherit;
+    font-size: 1rem;
+    /* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); */
+    -webkit-appearance: button;
+    outline: none;
+    cursor: pointer;
+    margin-left: -20px;
+    padding-left: 20px;
+
+
+}
+
+
+.boxSelect::before {
+    content: '\25BC';
+    font-family: inherit;
+    font-size: 0.8rem;
+    color: darkgray;
+    /* background: silver; */
+
+    position: absolute;
+    margin-left: -20px;
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    pointer-events: none;
+
+    z-index: 0;
+}
+
+
+.boxSelect:hover::before {
+    content: '\25BC';
+    font-family: inherit;
+    font-size: 0.8rem;
+    color: orange;
+    /* background: silver; */
+
+    position: absolute;
+    margin-left: -20px;
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    pointer-events: none;
+
+    z-index: 0;
+}
+
+
+/* .boxSelect:hover::after {
+    color: gray;
+} */
+
+/* RADIO SELECT */
+
+.containerSelectBox {
+    top: 0;
+    /* margin-top: 0; */
+    padding-left: 10px;
+}
+
+
+.containerSelectBox h3 {
+    margin-bottom: 10px;
+}
+
+.select-box {
+    position: relative;
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    z-index: 0;
+    font-size: 1rem;
+}
+
+
+.select-box .options-container {
+    background: #f9f9f9;
+    color: black;
+    max-height: 0;
+    line-height: 1.5rem;
+    width: 100%;
+    opacity: 0;
+    /* transition: all 0.4s; */
+    border-radius: 8px;
+    overflow: hidden;
+    order: 1;
+
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.selected {
+    /* background: red; */
+    margin-top: 0;
+    /* margin-bottom: 8px; */
+    position: relative;
+    order: 0;
+}
+
+.selected::before {
+    content: "\25BC \00a0";
+    color: darkgray;
+    font-size: 0.8rem;
+    /* position: absolute;
+    right: -6px;
+    top: 10px; */
+    /* padding-left: 10px; */
+    /* transition: all 0.4s; */
+    z-index: -1;
+}
+
+.selected:hover::before {
+    content: "\25BC \00a0";
+    color: orange;
+    font-size: 0.8rem;
+    /* position: absolute;
+    right: -6px;
+    top: 10px; */
+    /* padding-left: 10px; */
+    /* transition: all 0.4s; */
+    z-index: -1;
+}
+
+/* .selected::after {
+    content: "\25BC";
+    color: darkgray;
+    font-size: 0.8rem;
+    position: absolute;
+    right: -6px;
+    top: 10px;
+    padding-left: 10px;
+    transition: all 0.4s;
+    z-index: -1;
+} */
+
+.select-box .options-container.active {
+    max-height: 240px;
+    opacity: 1;
+    overflow-y: scroll;
+    margin-top: 54px;
+}
+
+.select-box .options-container.active+.selected::before {
+    content: '\25B2 \00a0';
+    /* transform: rotateY(180deg); */
+    color: orangered;
+    font-size: 0.8rem;
+}
+
+/* .select-box .options-container.active+.selected::after {
+    transform: rotateX(180deg);
+    color: green;
+    font-size: 0.8rem;
+} */
+
+.select-box .option,
+.selected {
+    /* padding: 12px 24px; */
+    padding: 6px;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.select-box .option:hover {
+    background: #ddd;
+    /* height: 1rem;
+    line-height: 1rem; */
+}
+
+.select-box label {
+    cursor: pointer;
+}
+
+.select-box .option .radio {
+    display: none;
+}
+
+/* Searchbox  TOWN + VILLAGES*/
+
+.search-box1 {
+    width: 90%;
+    height: 2rem;
+    /* margin-top: -10px; */
+    margin-left: 10px;
+    padding: 0px;
+    padding-left: 1rem;
+    font-size: 1rem;
+    /* position: absolute; */
+    border-radius: 0 0 8px 8px;
+    /* z-index: 100; */
+    border: 1px solid orange;
+    /* opacity: 0; */
+    /* pointer-events: none; */
+    /* transition: all 0.4s; */
+
+}
+
+.search-box111 {
+
+    margin-top: 10px;
+    margin-left: -20px;
+    padding: 0px;
+    padding-left: 1rem;
+    font-size: 1rem;
+
+
+    display: none;
+    /* position: absolute; */
+    background-color: #f6f6f6;
+    min-width: 250px;
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* cursor: default; */
+    /* border: 1px solid #ddd; */
+    z-index: 1;
+}
+
+.search-box111 a {
+    color: black;
+    /* padding: 12px 16px; */
+    margin-left: 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+}
+
+.search-box111 a:hover {
+    background-color: #ddd;
+}
+
+
+
+.search-box input {
+    width: 100%;
+    height: 45px;
+    padding: 0px;
+    padding-left: 1rem;
+    font-size: 1rem;
+    position: absolute;
+    border-radius: 8px 8px 0 0;
+    z-index: 100;
+    border: 1px solid orange;
+    opacity: 0;
+    pointer-events: none;
+    /* transition: all 0.4s; */
+
+}
+
+.search-box input:focus {
+    outline: none;
+    color: green;
+}
+
+.select-box .options-container.active~.search-box input {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+
+
+
+
+/* CARD  */
+
+div.cardContainer {
+    width: 150px;
+    height: 100px;
+
+    margin: auto;
+    margin-top: 25px;
+}
+
+div.card {
+    width: 100%;
+    height: 105%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: -12px;
+    color: whitesmoke;
+    font-size: 1rem;
+
+}
+
+div.cardHeader {
+    background-color: #4CAF50;
+    height: 80px;
+    line-height: 80px;
+}
+
+
+/* div.cardFooter {
+    height: 25px;
+    line-height: 25px;            
+} */
+
+div.cardCaption {
+    font-weight: bold;
+    font-size: 0.8rem;
+    height: 25px;
+    line-height: 25px;
+    color: DarkSlateGray;
+
+}
+
+/* background-color: rgb(255, 101, 101); */
+
+
+div.cardHeaderGray {
+    background-color: gray;
+    height: 80px;
+    line-height: 80px;
+}
+
+div.cardHeaderRuby {
+    background-color: tomato;
+    height: 80px;
+    line-height: 80px;
+}
+
+div.cardHeaderGold {
+    background-color: SandyBrown;
+    height: 80px;
+    line-height: 80px;
+}
+
+div.cardHeaderCorn {
+    background-color: Khaki;
+    height: 80px;
+    line-height: 80px;
+}
+
+div.cardHeaderJade {
+    background-color: MediumSeaGreen;
+    height: 80px;
+    line-height: 80px;
+}
+
+div.cardHeaderBlue {
+    background-color: CornflowerBlue;
+    height: 80px;
+    line-height: 80px;
+}
+
+div.cardHeaderPink {
+    background-color: plum;
+    height: 80px;
+    line-height: 80px;
+}
+
+/* END CARD */
+
+
+
+
+
+@media screen and (max-width: 975px) {
+
+    .topnav a:not(:first-child),
+    .dropdown .dropbtn {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav.responsive .dropdown {
+        float: none;
+    }
+
+    .topnav.responsive .dropdown-content {
+        position: relative;
+    }
+
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    /* 
+    .pageContainer {
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        width: 100%;
+    }
+
+    .mainLeft {
+        position: relative;
+        order: 1;
+    }
+
+    .mainMiddle {
+        display: flex;
+        flex-direction: column;
+        order: 2;
+        width: 95%;
+        padding-left: 20px;
+    }
+
+    .mapContainer {
+        position: relative;
+        order: 2;
+        width: 100%;
+        min-height: 500px;
+    }
+
+    .mainRight {
+        position: relative;
+        order: 3;
+    }
+
+    .cardContainer {
+        position: relative;
+        order: 3;
+    }
+
+    .footer {
+        position: relative;
+        order: 4;
+    } */
+
+}
+
+
+
+
+/* POP UP */
+.myPopUpBox {
+    width: 250px;
+    /* min-height: 100px; */
+    margin: 10px;
+    padding: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: inherit;
+    cursor: pointer;
+    text-align: left;
+    /* background-color: rgba(40, 40, 40, 0.7); */
+    background-color: rgba(50, 50, 50, 0.5);
+
+    border-radius: 10px;
+}
+
+.myPopUpBox::before {
+    content: 'x';
+    position: absolute;
+    margin-right: 0px;
+    top: 10px;
+    left: 270px;
+    color: rgba(255, 255, 0, 1);
+    font-size: 1rem;
+    font-weight: 'bold';
+    display: inline-block;
+    z-index: 2;
+}
+
+
+.popUpContainerDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.popUpContainer {
+    display: flex;
+    flex-direction: row;
+    /* overflow: hidden; */
+}
+
+.popUpContent {
+    /* position: absolute; */
+    margin-top: 5px;
+
+    margin-left: 4px;
+    padding-left: 10px;
+    width: 213px;
+    height: 30px;
+    line-height: 30px;
+    flex: 16%;
+    font-family: inherit;
+    font-size: 0.9rem;
+    /* font-weight: bold; */
+    border-left: 5px solid green;
+    border-right: 5px solid tomato;
+    /* border-radius: 5px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.popUpContent1 {
+    margin-left: -20px;
+    background-color: var(--color-healthy);
+}
+
+.popUpContent2 {
+    background-color: var(--color-primary);
+}
+
+.popUpContent3 {
+    background-color: var(--color-success);
+}
+
+.popUpContent4 {
+    background-color: var(--color-testing);
+}
+
+.popUpContent5 {
+    background-color: var(--color-warning);
+}
+
+.popUpContent6 {
+    background-color: var(--color-trouble);
+}
+
+
+.popUpContent11 {
+    margin-left: -20px;
+    background-color: var(--color-healthyOM);
+}
+
+.popUpContent21 {
+    background-color: var(--color-primaryOM);
+}
+
+.popUpContent31 {
+    background-color: var(--color-successOM);
+}
+
+.popUpContent41 {
+    background-color: var(--color-testingOM);
+}
+
+.popUpContent51 {
+    background-color: var(--color-warningOM);
+}
+
+.popUpContent61 {
+    background-color: var(--color-troubleOM);
+}

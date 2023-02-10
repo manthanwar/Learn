@@ -1,0 +1,47 @@
+html {
+  font-family: 'Lato';
+  margin: 20px auto;
+  line-height: 1.5;
+  max-width: 1024px;
+  font-size: 1.25em;
+}
+
+span.tooltip {
+  padding: 5px 10px 6px 10px;
+  border-radius: 20px;
+  position: relative;
+  background: teal;
+  color: white;
+  cursor: pointer;
+}
+
+.tooltip-info {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+span.tooltip::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 1.5em;
+  font-size: 0.9em;
+  padding: 1px 5px;
+  display: none;
+  color: white;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  transition: opacity 0.1s ease-out;
+  z-index: 99;
+  text-align: left;
+}
+
+span:hover::before {
+  display: inline-block;
+}
+
+section {
+  font-size: 40px;
+  font-weight: bold;
+  color: purple;
+}

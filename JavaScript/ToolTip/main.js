@@ -111,7 +111,7 @@ let sectionObj = {
   type: "section",
   id: "sectionId",
   className: "sectionClass",
-  innerHTML: "<p>This is a section</p>",
+  innerHTML: "<p>Hello World</p>",
   attrs: {
     dataFoo: "bar",
     dataBaz: "garply",
@@ -121,7 +121,7 @@ let sectionObj = {
 };
 
 window.addEventListener("load", function () {
-  let ele = document.getElementById("sectionContainer");
+  let ele = document.getElementById("root");
 
   let dom = new Chart("ami", "ddd");
 

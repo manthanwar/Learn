@@ -1,12 +1,24 @@
 html {
-  font-family: 'Lato';
+  font-family:'Segoe UI', Helvetica, sans-serif;
   margin: 20px auto;
   line-height: 1.5;
   max-width: 1024px;
   font-size: 1.25em;
 }
 
+h1,h2 {
+  text-align: center;
+}
 
+#svgContainerAutoId{
+  margin: auto;
+  padding: 20px;
+  background-color: beige;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+
+  transform: scale(1);
+}
 
 .sectionClass {
   font-size: 40px;

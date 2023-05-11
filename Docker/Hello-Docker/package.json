@@ -1,0 +1,31 @@
+{
+  "name": "hello-docker",
+  "ssprettier": "./config/prettier.config.js",
+  "prettier": "./config/prettierrc.js",
+  "sprettier": "./config/.prettierrc.json",
+  "version": "1.0.0",
+  "description": "learn docker + nodejs + mongodb + mongo-express",
+  "author": {
+    "name": "Amit M. Manthanwar",
+    "email": "project@hostname.com",
+    "url": "https://github.com/manthanwar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manthanwar/Learn"
+  },
+  "bugs": {
+    "url": "https://github.com/manthanwar/Learn/issues"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier-format": "prettier --config .prettierrc 'src/*.js' --write"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongodb": "^5.4.0"
+  }
+}

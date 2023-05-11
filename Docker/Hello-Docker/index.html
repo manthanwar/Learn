@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <!-- <script src="main.js"></script> -->
+  </head>
+  <body>
+    <div class="main">
+      <h1>Hello Docker + Nodejs + Mongo + Mongo-Express</h1>
+
+      <div class="bg-img">
+        <form action="/action_page.php" class="container">
+          <h1>Login</h1>
+
+          <label for="name"><b>First Name</b></label>
+          <input type="text" placeholder="Enter First Name" name="nameF" required />
+
+          <label for="nameM"><b>Middle Name</b></label>
+          <input type="text" placeholder="Enter Email" name="nameM" maxlength="20" size="20" />
+
+          <label for="nameL"><b>Last Name</b></label>
+          <input type="text" placeholder="Enter Email" name="nameL" required />
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required />
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required />
+
+          <label for="country"><b>Country</b></label>
+          <!-- <select name="country"  onmousedown="if(this.options.length>5){this.size=5;}" onchange="this.size=0;" onblur="this.size=0;"> -->
+          <select name="country">
+            <option value="🇦🇨">🇦🇨 Ascension Island</option>
+            <option value="🇦🇩">🇦🇩 Andorra</option>
+            <option value="🇦🇪">🇦🇪 United Arab Emirates</option>
+            <option value="🇦🇫">🇦🇫 Afghanistan</option>
+            <option value="🇦🇬">🇦🇬 Antigua & Barbuda</option>
+            <option value="🇦🇮">🇦🇮 Anguilla</option>
+            <option value="🇦🇱">🇦🇱 Albania</option>
+            <option value="🇦🇲">🇦🇲 Armenia</option>
+            <option value="🇦🇴">🇦🇴 Angola</option>
+            <option value="🇦🇶">🇦🇶 Antarctica</option>
+            <option value="🇦🇷">🇦🇷 Argentina</option>
+            <option value="🇦🇸">🇦🇸 American Samoa</option>
+            <option value="🇦🇹">🇦🇹 Austria</option>
+            <option value="🇦🇺">🇦🇺 Australia</option>
+            <option value="🇦🇼">🇦🇼 Aruba</option>
+            <option value="🇦🇽">🇦🇽 Åland Islands</option>
+            <option value="🇦🇿">🇦🇿 Azerbaijan</option>
+            <option value="🇧🇦">🇧🇦 Bosnia & Herzegovina</option>
+            <option value="🇧🇧">🇧🇧 Barbados</option>
+            <option value="🇧🇩">🇧🇩 Bangladesh</option>
+            <option value="🇧🇪">🇧🇪 Belgium</option>
+            <option value="🇧🇫">🇧🇫 Burkina Faso</option>
+            <option value="🇧🇬">🇧🇬 Bulgaria</option>
+            <option value="🇧🇭">🇧🇭 Bahrain</option>
+            <option value="🇧🇮">🇧🇮 Burundi</option>
+            <option value="🇧🇯">🇧🇯 Benin</option>
+            <option value="🇧🇱">🇧🇱 St. Barthélemy</option>
+            <option value="🇧🇲">🇧🇲 Bermuda</option>
+            <option value="🇧🇳">🇧🇳 Brunei</option>
+            <option value="🇧🇴">🇧🇴 Bolivia</option>
+            <option value="🇧🇶">🇧🇶 Caribbean Netherlands</option>
+            <option value="🇧🇷">🇧🇷 Brazil</option>
+            <option value="🇧🇸">🇧🇸 Bahamas</option>
+            <option value="🇧🇹">🇧🇹 Bhutan</option>
+            <option value="🇧🇻">🇧🇻 Bouvet Island</option>
+            <option value="🇧🇼">🇧🇼 Botswana</option>
+            <option value="🇧🇾">🇧🇾 Belarus</option>
+            <option value="🇧🇿">🇧🇿 Belize</option>
+            <option value="🇨🇦">🇨🇦 Canada</option>
+            <option value="🇨🇨">🇨🇨 Cocos (Keeling) Islands</option>
+            <option value="🇨🇩">🇨🇩 Congo - Kinshasa</option>
+            <option value="🇨🇫">🇨🇫 Central African Republic</option>
+            <option value="🇨🇬">🇨🇬 Congo - Brazzaville</option>
+            <option value="🇨🇭">🇨🇭 Switzerland</option>
+            <option value="🇨🇮">🇨🇮 Côte d’Ivoire</option>
+            <option value="🇨🇰">🇨🇰 Cook Islands</option>
+            <option value="🇨🇱">🇨🇱 Chile</option>
+            <option value="🇨🇲">🇨🇲 Cameroon</option>
+            <option value="🇨🇳">🇨🇳 China</option>
+            <option value="🇨🇴">🇨🇴 Colombia</option>
+            <option value="🇨🇵">🇨🇵 Clipperton Island</option>
+            <option value="🇨🇷">🇨🇷 Costa Rica</option>
+            <option value="🇨🇺">🇨🇺 Cuba</option>
+            <option value="🇨🇻">🇨🇻 Cape Verde</option>
+            <option value="🇨🇼">🇨🇼 Curaçao</option>
+            <option value="🇨🇽">🇨🇽 Christmas Island</option>
+            <option value="🇨🇾">🇨🇾 Cyprus</option>
+            <option value="🇨🇿">🇨🇿 Czech Republic</option>
+            <option value="🇩🇪">🇩🇪 Germany</option>
+            <option value="🇩🇬">🇩🇬 Diego Garcia</option>
+            <option value="🇩🇯">🇩🇯 Djibouti</option>
+            <option value="🇩🇰">🇩🇰 Denmark</option>
+            <option value="🇩🇲">🇩🇲 Dominica</option>
+            <option value="🇩🇴">🇩🇴 Dominican Republic</option>
+            <option value="🇩🇿">🇩🇿 Algeria</option>
+            <option value="🇪🇦">🇪🇦 Ceuta & Melilla</option>
+            <option value="🇪🇨">🇪🇨 Ecuador</option>
+            <option value="🇪🇪">🇪🇪 Estonia</option>
+            <option value="🇪🇬">🇪🇬 Egypt</option>
+            <option value="🇪🇭">🇪🇭 Western Sahara</option>
+            <option value="🇪🇷">🇪🇷 Eritrea</option>
+            <option value="🇪🇸">🇪🇸 Spain</option>
+            <option value="🇪🇹">🇪🇹 Ethiopia</option>
+            <option value="🇪🇺">🇪🇺 European Union</option>
+            <option value="🇫🇮">🇫🇮 Finland</option>
+            <option value="🇫🇯">🇫🇯 Fiji</option>
+            <option value="🇫🇰">🇫🇰 Falkland Islands</option>
+            <option value="🇫🇲">🇫🇲 Micronesia</option>
+            <option value="🇫🇴">🇫🇴 Faroe Islands</option>
+            <option value="🇫🇷">🇫🇷 France</option>
+            <option value="🇬🇦">🇬🇦 Gabon</option>
+            <option value="🇬🇧">🇬🇧 United Kingdom</option>
+            <option value="🇬🇩">🇬🇩 Grenada</option>
+            <option value="🇬🇪">🇬🇪 Georgia</option>
+            <option value="🇬🇫">🇬🇫 French Guiana</option>
+            <option value="🇬🇬">🇬🇬 Guernsey</option>
+            <option value="🇬🇭">🇬🇭 Ghana</option>
+            <option value="🇬🇮">🇬🇮 Gibraltar</option>
+            <option value="🇬🇱">🇬🇱 Greenland</option>
+            <option value="🇬🇲">🇬🇲 Gambia</option>
+            <option value="🇬🇳">🇬🇳 Guinea</option>
+            <option value="🇬🇵">🇬🇵 Guadeloupe</option>
+            <option value="🇬🇶">🇬🇶 Equatorial Guinea</option>
+            <option value="🇬🇷">🇬🇷 Greece</option>
+            <option value="🇬🇸">🇬🇸 South Georgia & South Sandwich Islands</option>
+            <option value="🇬🇹">🇬🇹 Guatemala</option>
+            <option value="🇬🇺">🇬🇺 Guam</option>
+            <option value="🇬🇼">🇬🇼 Guinea-Bissau</option>
+            <option value="🇬🇾">🇬🇾 Guyana</option>
+            <option value="🇭🇰">🇭🇰 Hong Kong SAR China</option>
+            <option value="🇭🇲">🇭🇲 Heard & McDonald Islands</option>
+            <option value="🇭🇳">🇭🇳 Honduras</option>
+            <option value="🇭🇷">🇭🇷 Croatia</option>
+            <option value="🇭🇹">🇭🇹 Haiti</option>
+            <option value="🇭🇺">🇭🇺 Hungary</option>
+            <option value="🇮🇨">🇮🇨 Canary Islands</option>
+            <option value="🇮🇩">🇮🇩 Indonesia</option>
+            <option value="🇮🇪">🇮🇪 Ireland</option>
+            <option value="🇮🇱">🇮🇱 Israel</option>
+            <option value="🇮🇲">🇮🇲 Isle of Man</option>
+            <option value="🇮🇳">🇮🇳 India</option>
+            <option value="🇮🇴">🇮🇴 British Indian Ocean Territory</option>
+            <option value="🇮🇶">🇮🇶 Iraq</option>
+            <option value="🇮🇷">🇮🇷 Iran</option>
+            <option value="🇮🇸">🇮🇸 Iceland</option>
+            <option value="🇮🇹">🇮🇹 Italy</option>
+            <option value="🇯🇪">🇯🇪 Jersey</option>
+            <option value="🇯🇲">🇯🇲 Jamaica</option>
+            <option value="🇯🇴">🇯🇴 Jordan</option>
+            <option value="🇯🇵">🇯🇵 Japan</option>
+            <option value="🇰🇪">🇰🇪 Kenya</option>
+            <option value="🇰🇬">🇰🇬 Kyrgyzstan</option>
+            <option value="🇰🇭">🇰🇭 Cambodia</option>
+            <option value="🇰🇮">🇰🇮 Kiribati</option>
+            <option value="🇰🇲">🇰🇲 Comoros</option>
+            <option value="🇰🇳">🇰🇳 St. Kitts & Nevis</option>
+            <option value="🇰🇵">🇰🇵 North Korea</option>
+            <option value="🇰🇷">🇰🇷 South Korea</option>
+            <option value="🇰🇼">🇰🇼 Kuwait</option>
+            <option value="🇰🇾">🇰🇾 Cayman Islands</option>
+            <option value="🇰🇿">🇰🇿 Kazakhstan</option>
+            <option value="🇱🇦">🇱🇦 Laos</option>
+            <option value="🇱🇧">🇱🇧 Lebanon</option>
+            <option value="🇱🇨">🇱🇨 St. Lucia</option>
+            <option value="🇱🇮">🇱🇮 Liechtenstein</option>
+            <option value="🇱🇰">🇱🇰 Sri Lanka</option>
+            <option value="🇱🇷">🇱🇷 Liberia</option>
+            <option value="🇱🇸">🇱🇸 Lesotho</option>
+            <option value="🇱🇹">🇱🇹 Lithuania</option>
+            <option value="🇱🇺">🇱🇺 Luxembourg</option>
+            <option value="🇱🇻">🇱🇻 Latvia</option>
+            <option value="🇱🇾">🇱🇾 Libya</option>
+            <option value="🇲🇦">🇲🇦 Morocco</option>
+            <option value="🇲🇨">🇲🇨 Monaco</option>
+            <option value="🇲🇩">🇲🇩 Moldova</option>
+            <option value="🇲🇪">🇲🇪 Montenegro</option>
+            <option value="🇲🇫">🇲🇫 St. Martin</option>
+            <option value="🇲🇬">🇲🇬 Madagascar</option>
+            <option value="🇲🇭">🇲🇭 Marshall Islands</option>
+            <option value="🇲🇰">🇲🇰 Macedonia</option>
+            <option value="🇲🇱">🇲🇱 Mali</option>
+            <option value="🇲🇲">🇲🇲 Myanmar (Burma)</option>
+            <option value="🇲🇳">🇲🇳 Mongolia</option>
+            <option value="🇲🇴">🇲🇴 Macau SAR China</option>
+            <option value="🇲🇵">🇲🇵 Northern Mariana Islands</option>
+            <option value="🇲🇶">🇲🇶 Martinique</option>
+            <option value="🇲🇷">🇲🇷 Mauritania</option>
+            <option value="🇲🇸">🇲🇸 Montserrat</option>
+            <option value="🇲🇹">🇲🇹 Malta</option>
+            <option value="🇲🇺">🇲🇺 Mauritius</option>
+            <option value="🇲🇻">🇲🇻 Maldives</option>
+            <option value="🇲🇼">🇲🇼 Malawi</option>
+            <option value="🇲🇽">🇲🇽 Mexico</option>
+            <option value="🇲🇾">🇲🇾 Malaysia</option>
+            <option value="🇲🇿">🇲🇿 Mozambique</option>
+            <option value="🇳🇦">🇳🇦 Namibia</option>
+            <option value="🇳🇨">🇳🇨 New Caledonia</option>
+            <option value="🇳🇪">🇳🇪 Niger</option>
+            <option value="🇳🇫">🇳🇫 Norfolk Island</option>
+            <option value="🇳🇬">🇳🇬 Nigeria</option>
+            <option value="🇳🇮">🇳🇮 Nicaragua</option>
+            <option value="🇳🇱">🇳🇱 Netherlands</option>
+            <option value="🇳🇴">🇳🇴 Norway</option>
+            <option value="🇳🇵">🇳🇵 Nepal</option>
+            <option value="🇳🇷">🇳🇷 Nauru</option>
+            <option value="🇳🇺">🇳🇺 Niue</option>
+            <option value="🇳🇿">🇳🇿 New Zealand</option>
+            <option value="🇴🇲">🇴🇲 Oman</option>
+            <option value="🇵🇦">🇵🇦 Panama</option>
+            <option value="🇵🇪">🇵🇪 Peru</option>
+            <option value="🇵🇫">🇵🇫 French Polynesia</option>
+            <option value="🇵🇬">🇵🇬 Papua New Guinea</option>
+            <option value="🇵🇭">🇵🇭 Philippines</option>
+            <option value="🇵🇰">🇵🇰 Pakistan</option>
+            <option value="🇵🇱">🇵🇱 Poland</option>
+            <option value="🇵🇲">🇵🇲 St. Pierre & Miquelon</option>
+            <option value="🇵🇳">🇵🇳 Pitcairn Islands</option>
+            <option value="🇵🇷">🇵🇷 Puerto Rico</option>
+            <option value="🇵🇸">🇵🇸 Palestinian Territories</option>
+            <option value="🇵🇹">🇵🇹 Portugal</option>
+            <option value="🇵🇼">🇵🇼 Palau</option>
+            <option value="🇵🇾">🇵🇾 Paraguay</option>
+            <option value="🇶🇦">🇶🇦 Qatar</option>
+            <option value="🇷🇪">🇷🇪 Réunion</option>
+            <option value="🇷🇴">🇷🇴 Romania</option>
+            <option value="🇷🇸">🇷🇸 Serbia</option>
+            <option value="🇷🇺">🇷🇺 Russia</option>
+            <option value="🇷🇼">🇷🇼 Rwanda</option>
+            <option value="🇸🇦">🇸🇦 Saudi Arabia</option>
+            <option value="🇸🇧">🇸🇧 Solomon Islands</option>
+            <option value="🇸🇨">🇸🇨 Seychelles</option>
+            <option value="🇸🇩">🇸🇩 Sudan</option>
+            <option value="🇸🇪">🇸🇪 Sweden</option>
+            <option value="🇸🇬">🇸🇬 Singapore</option>
+            <option value="🇸🇭">🇸🇭 St. Helena</option>
+            <option value="🇸🇮">🇸🇮 Slovenia</option>
+            <option value="🇸🇯">🇸🇯 Svalbard & Jan Mayen</option>
+            <option value="🇸🇰">🇸🇰 Slovakia</option>
+            <option value="🇸🇱">🇸🇱 Sierra Leone</option>
+            <option value="🇸🇲">🇸🇲 San Marino</option>
+            <option value="🇸🇳">🇸🇳 Senegal</option>
+            <option value="🇸🇴">🇸🇴 Somalia</option>
+            <option value="🇸🇷">🇸🇷 Suriname</option>
+            <option value="🇸🇸">🇸🇸 South Sudan</option>
+            <option value="🇸🇹">🇸🇹 São Tomé & Príncipe</option>
+            <option value="🇸🇻">🇸🇻 El Salvador</option>
+            <option value="🇸🇽">🇸🇽 Sint Maarten</option>
+            <option value="🇸🇾">🇸🇾 Syria</option>
+            <option value="🇸🇿">🇸🇿 Swaziland</option>
+            <option value="🇹🇦">🇹🇦 Tristan da Cunha</option>
+            <option value="🇹🇨">🇹🇨 Turks & Caicos Islands</option>
+            <option value="🇹🇩">🇹🇩 Chad</option>
+            <option value="🇹🇫">🇹🇫 French Southern Territories</option>
+            <option value="🇹🇬">🇹🇬 Togo</option>
+            <option value="🇹🇭">🇹🇭 Thailand</option>
+            <option value="🇹🇯">🇹🇯 Tajikistan</option>
+            <option value="🇹🇰">🇹🇰 Tokelau</option>
+            <option value="🇹🇱">🇹🇱 Timor-Leste</option>
+            <option value="🇹🇲">🇹🇲 Turkmenistan</option>
+            <option value="🇹🇳">🇹🇳 Tunisia</option>
+            <option value="🇹🇴">🇹🇴 Tonga</option>
+            <option value="🇹🇷">🇹🇷 Turkey</option>
+            <option value="🇹🇹">🇹🇹 Trinidad & Tobago</option>
+            <option value="🇹🇻">🇹🇻 Tuvalu</option>
+            <option value="🇹🇼">🇹🇼 Taiwan</option>
+            <option value="🇹🇿">🇹🇿 Tanzania</option>
+            <option value="🇺🇦">🇺🇦 Ukraine</option>
+            <option value="🇺🇬">🇺🇬 Uganda</option>
+            <option value="🇺🇲">🇺🇲 U.S. Outlying Islands</option>
+            <option value="🇺🇸">🇺🇸 United States</option>
+            <option value="🇺🇾">🇺🇾 Uruguay</option>
+            <option value="🇺🇿">🇺🇿 Uzbekistan</option>
+            <option value="🇻🇦">🇻🇦 Vatican City</option>
+            <option value="🇻🇨">🇻🇨 St. Vincent & Grenadines</option>
+            <option value="🇻🇪">🇻🇪 Venezuela</option>
+            <option value="🇻🇬">🇻🇬 British Virgin Islands</option>
+            <option value="🇻🇮">🇻🇮 U.S. Virgin Islands</option>
+            <option value="🇻🇳">🇻🇳 Vietnam</option>
+            <option value="🇻🇺">🇻🇺 Vanuatu</option>
+            <option value="🇼🇫">🇼🇫 Wallis & Futuna</option>
+            <option value="🇼🇸">🇼🇸 Samoa</option>
+            <option value="🇽🇰">🇽🇰 Kosovo</option>
+            <option value="🇾🇪">🇾🇪 Yemen</option>
+            <option value="🇾🇹">🇾🇹 Mayotte</option>
+            <option value="🇿🇦">🇿🇦 South Africa</option>
+            <option value="🇿🇲">🇿🇲 Zambia</option>
+            <option value="🇿🇼">🇿🇼 Zimbabwe</option>
+          </select>
+
+          <button type="submit" class="btn">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

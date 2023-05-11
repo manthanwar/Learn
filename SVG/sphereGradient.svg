@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="1400">
+
+    <!-- <circle cx="200" cy="200" r="200" fill="red" opacity="1" /> -->
+
+    <defs>
+        <linearGradient id="linearGrad1" gradientTransform="rotate(90)">
+            <stop offset="15%" stop-color="gold" />
+            <stop offset="45%" stop-color="green" />
+            <stop offset="65%" stop-color="blue" />
+            <stop offset="95%" stop-color="red" />
+        </linearGradient>
+
+        <linearGradient id="linearGrad2" >
+            <stop offset="0%" stop-color="red" stop-opacity="1" />
+            <stop offset="70%" stop-color="green" stop-opacity="1" />
+        </linearGradient>
+
+        <linearGradient id="linearGrad3" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="red" stop-opacity="1" />
+            <stop offset="60%" stop-color="green" stop-opacity="1" />
+        </linearGradient>
+
+        <radialGradient id="SphereShade" cx="0.5" cy="0.5" r=".8" fx="0.35" fy="0.25">
+            <stop offset="0" stop-opacity="0" />
+            <stop offset=".3" stop-opacity="0.1" />
+            <stop offset=".5" stop-opacity="0.3" />
+            <stop offset=".9" stop-opacity="1" />
+        </radialGradient>
+
+        <radialGradient id="SphereShade2" cx="0.5" cy="0.5" r=".8" fx="0.35" fy="0.25">
+            <stop offset="0" stop-opacity="1" stop-color="green" />
+            <stop offset=".3" stop-opacity="0.5" stop-color="blue" />
+            <stop offset=".5" stop-opacity="0.5" stop-color="red" />
+            <stop offset=".9" stop-opacity="1" stop-color="black" />
+        </radialGradient>
+
+        <radialGradient id="SphereShade3" cx="0.5" cy="0.5" r=".8" fx="0.35" fy="0.25">
+            <stop offset="0" stop-opacity=".8" stop-color="lime" />
+            <stop offset=".6" stop-opacity="1" stop-color="green" />
+        </radialGradient>
+    </defs>
+
+    <circle cx="200" cy="200" r="200" fill="url(#SphereShade)" opacity=".5" />
+
+    <circle cx="200" cy="600" r="200" fill="url(#SphereShade2)" opacity=".5" />
+
+    <circle cx="200" cy="900" r="100" fill="url('#linearGrad3')" />
+    <circle cx="200" cy="1100" r="100" fill="url('#SphereShade3')" />
+
+</svg>

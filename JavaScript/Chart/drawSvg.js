@@ -83,7 +83,7 @@ function drawSvgAuto(svgContainerId) {
   svgContainer.style.width = "450px";
   svgContainer.style.height = "300px";
   svgContainer.style.padding = "0px";
-  svgContainer.style.backgroundColor = "silver";
+  svgContainer.style.backgroundColor = "white";
 
   let svgObj = {
     type: "svg",

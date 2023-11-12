@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.28.0)
+set(CMAKE_C_COMPILER "/c/Strawberry/c/bin/gcc-8.3")
+set(CMAKE_CXX_COMPILER "/c/Strawberry/c/bin/g++-8.3")
+project(CMakeHello)
+add_executable(cmake_hello helloworld.cpp)

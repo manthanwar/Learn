@@ -1,0 +1,23 @@
+Hi
+My name is 
+amit
+ok
+bye
+see ya
+later
+then
+cheers
+amit
+next
+amit
+
+5555551212
+5555551213
+5555551214
+6665551215
+6665551216
+7775551217
+
+ sed -e 's/^[[:digit:]]\{3\}/(&)/g'
+
+ sed -e 's/^[[:digit:]]\{3\}/(&)/g' -e 's/)[[:digit:]]\{3\}/&-/g' learn-sed-example-file.txt 

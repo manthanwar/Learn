@@ -1,3 +1,114 @@
 {
-    "svg.preview.background": "custom"
+    "window.title": "File Name: '${activeEditorLong}' | Path:  ${folderPath}    | Status: ${dirty}",
+    "window.zoomLevel": 0.5,
+
+    "files.autoSave": "onFocusChange",
+
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.wordWrapColumn": 150,
+    "editor.minimap.maxColumn": 120,
+    "editor.multiCursorModifier": "alt",
+    "editor.tabCompletion": "on",
+
+    "editor.tokenColorCustomizations": {
+        "comments": "#aaa" // "#bbb8b2"
+    },
+
+    "editor.tabSize": 4,
+    "editor.fontSize": 16,
+    // "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.enableBell": true,
+    "terminal.integrated.bellDuration": 5000,
+
+    // "terminal.integrated.defaultLocation": "editor",
+    // "terminal.integrated.fontFamily": "monospace",
+    // "terminal.integrated.fontFamily": "PowerlineSymbols",
+    // "terminal.integrated.fontFamily": "Fira Code",
+    // "editor.fontFamily": "Fira Code",
+    // "editor.fontLigatures": true,
+    // "terminal.integrated.fontWeightBold": "normal",
+    // "terminal.integrated.fontFamily": "'Fira Mono for Powerline', 'Fira Code', 'Consolas', 'Courier New', monospace",
+    // "editor.fontFamily": "'Fira Mono for Powerline', 'Fira Code', 'Consolas', 'Courier New', monospace",
+
+
+    // "terminal.integrated.fontFamily": "Fira Mono for Powerline",
+
+    // "terminal.integrated.fontFamily": "Fira Code",
+    // "terminal.integrated.fontFamily": "Droid Sans Mono for Powerline",
+    // "terminal.integrated.fontFamily": "Menlo for Powerline",
+    // "terminal.integrated.fontFamily": "Hack",
+    // "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+    "terminal.integrated.fontFamily": "Menlo for Powerline",
+
+
+
+    // git
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+
+
+
+    "svg.preview.background": "custom",
+    "cmake.configureOnOpen": false,
+
+
+    "material-icon-theme.folders.color": "#F1D592",
+    "material-icon-theme.folders.associations": {
+        "Bash": "scripts",
+        "CPP": "Android",
+        "JavaScript": "javascript",
+        "LaTeX": "docs",
+        "Mathematics": "delta",
+        "Node": "node",
+        "SQL": "stack"
+    },
+
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    "prettier.useTabs": true,
+    // "workbench.colorTheme": "Darcula Theme from IntelliJ",
+    "workbench.iconTheme": "material-icon-theme",
+
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+    "makefile.makefilePath": "CPP/LearnClass",
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[makefile]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "markdown.styles": [ "markdown.css" ],
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "off",
+            "strings": "off"
+        }
+    },
+    
 }

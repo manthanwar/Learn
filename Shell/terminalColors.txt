@@ -1,0 +1,34 @@
+# terminalColors.txt
+fontNormal      := 0
+fontBold        := 1
+fontLight       :=2
+fontItalic      := 3
+fontUnderline   := 4
+
+colorBlack     	 := \033[0;30m
+colorRed     	 := \033[0;31m
+colorGreen     	 := \033[0;32m
+colorYellow      := \033[0;33m
+colorBlue     	 := \033[0;34m
+colorMagenta     := \033[0;35m
+colorCyan     	 := \033[0;36m
+colorWhite     	 := \033[0;37m
+
+colorBlackBold   := \033[1;30m
+colorRedBold  	 := \033[1;31m
+colorGreenBold   := \033[1;32m
+colorYellowBold  := \033[1;33m
+colorBlueBold 	 := \033[1;34m
+colorMagentaBold := \033[1;35m
+colorCyanBold    := \033[1;36m
+colorWhiteBold   := \033[1;37m
+colorNo          := \033[0m
+
+colorBlackBg   	:= \033[0;40m
+colorRedBg     	:= \033[0;41m
+colorGreenBg   	:= \033[0;42m
+colorYellowBg   := \033[0;43m
+colorBlueBg    	:= \033[0;44m
+colorMagentaBg  := \033[0;45m
+colorCyanBg    	:= \033[0;46m
+colorWhiteBg   	:= \033[0;47m

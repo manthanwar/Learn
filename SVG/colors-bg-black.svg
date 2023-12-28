@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="colors-bg-black.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="6.8643184"
+     inkscape:cx="149.46859"
+     inkscape:cy="375.71101"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-grids="true"
+     units="mm"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid832"
+       units="mm"
+       empspacing="10"
+       spacingx="1"
+       spacingy="1" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.106;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect273"
+       width="100"
+       height="60"
+       x="2.9605949e-15"
+       y="80" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.64583px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#ffffff;stroke-width:0.264583"
+       x="10"
+       y="88"
+       id="text111"><tspan
+         sodipodi:role="line"
+         id="tspan109"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#ffffff;stroke-width:0.264583"
+         x="10"
+         y="88">Color Test</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.64583px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#cdab8f;stroke-width:0.264583"
+       x="10"
+       y="92"
+       id="text277"><tspan
+         sodipodi:role="line"
+         id="tspan275"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#cdab8f;stroke-width:0.264583"
+         x="10"
+         y="92">Color Test</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.64583px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#dc8add;stroke-width:0.264583"
+       x="10"
+       y="96"
+       id="text281"><tspan
+         sodipodi:role="line"
+         id="tspan279"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#dc8add;stroke-width:0.264583"
+         x="10"
+         y="96">Color Test</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.64583px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#ff7800;stroke-width:0.264583"
+       x="10"
+       y="100"
+       id="text285"><tspan
+         sodipodi:role="line"
+         id="tspan283"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#ff7800;stroke-width:0.264583"
+         x="10"
+         y="100">Color Test</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.64583px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#f9f06b;stroke-width:0.264583"
+       x="10"
+       y="104"
+       id="text289"><tspan
+         sodipodi:role="line"
+         id="tspan287"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#f9f06b;stroke-width:0.264583"
+         x="10"
+         y="104">Color Test</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.64583px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#8ff0a4;stroke-width:0.264583"
+       x="10"
+       y="108"
+       id="text293"><tspan
+         sodipodi:role="line"
+         id="tspan291"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#8ff0a4;stroke-width:0.264583"
+         x="10"
+         y="108">Color Test</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.64583px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#99c1f1;stroke-width:0.264583"
+       x="10"
+       y="112"
+       id="text297"><tspan
+         sodipodi:role="line"
+         id="tspan295"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';fill:#99c1f1;stroke-width:0.264583"
+         x="10"
+         y="112">Color Test</tspan></text>
+  </g>
+</svg>

@@ -1,7 +1,7 @@
 # terminalColors.txt
 
 colorBlack     	:= \033[0;30m
-colorRed     	:= \033[0;31m
+colorRed     	  := \033[0;31m
 colorGreen     	:= \033[0;32m
 colorYellow     := \033[0;33m
 colorBlue     	:= \033[0;34m

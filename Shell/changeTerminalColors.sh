@@ -21,6 +21,18 @@
 # done
 
 function colorFgRange {
+    for fg in {30..37}; 
+    do
+        # for bg in {100..107}; 
+        for bg in {40..47}; 
+        do
+            printf "Hi FG = $fg ==> BG = $bg \033[0;${bg};${fg}m Amit \033[0m Howdy Do\n"
+        done
+        printf '\n'
+    done
+}
+
+function colorFgRangeNinety {
     for fg in {90..97}; 
     do
         for bg in {100..107}; 

@@ -16,19 +16,23 @@ for layer in layers:
     
     values = []
     for feature in layer.getFeatures():
-        values.append(feature['name'])
+        values.append(feature['admin_level'])
         #print(feature['name'])
 
-    print(len(values))
+    print('count = ', len(values))
     uniqueValues = list(dict.fromkeys(values))
     print(uniqueValues)
-    print(len(uniqueValues))
+    #print(len(uniqueValues))
     
-    fVal =sorted(uniqueValues)[0] 
-    print(fVal)
-    fStr = 'name=\'' + fVal + '\''
-    print(fStr)
-    layer.selectByExpression(fStr)
+    uniqueValuesInt = sorted(list(map(int, uniqueValues)))
+    for i in range(len(uniqueValues)):
+        print(uniqueValuesInt[i])
+    
+    #fVal =sorted(uniqueValues)[0] 
+    #print(fVal)
+    #fStr = 'name=\'' + fVal + '\''
+    #print(fStr)
+    #layer.selectByExpression(fStr)
     
     
     

@@ -1,0 +1,38 @@
+29-01-2009 23:56:14
+
+CHANGE MANAGEMENT
+
+
+Changes, modifications and development of new software happes so fast and so frequent that it is essential to keep track of changes, enhancements and development of new work flow items and artifacts. The European Space Agency's Ariane 5 Flight 501 rocket disaster was caused by poor change management in reused software parts,[Finish Thesis, Minna Makarainen 2000]
+
+I plan to use following keywords with subversion commit process.
+This should allow to keep track of development workflow.
+
+Version Control Codes:
+
+NEW: New Features
+CHG: Minor Changes
+ENH: Major Enhancements
+BUG: Bug Fixed
+REM: Removed
+
+
+City Location Based Codes:
+
+HYD: Hyderabad, Andra Pradesh, India
+PNQ: Pune, Maharashtra, India - Based on IATA Airport Code
+
+
+
+Examples:
+
+NEW: AMM HYD - New Feature    - by Amit M. Manthanwar developed at Hyderabad
+CHG: AMM HYD - Changes        - by Amit M. Manthanwar developed at Hyderabad
+ENH: AMM HYD - Enhancements   - by Amit M. Manthanwar at Hyderabad
+BUG: AMM HYD - Bugs Fixed     - by Amit M. Manthanwar at Hyderabad
+REM: AMM HYD - Removed        - by Amit M. Manthanwar at Hyderabad
+
+
+e.g.,
+
+NEW: AMM HYD - First version of Change-Management and log information

@@ -1,0 +1,3 @@
+% chktexrc
+% Disable warning 2 (for $$...$$)
+% NoNewPageMath 0

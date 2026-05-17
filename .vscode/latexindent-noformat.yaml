@@ -1,0 +1,12 @@
+# Set default indentation to empty
+defaultIndent: ''
+
+# Turn off modification of line breaks
+modifyLineBreaks:
+ textWrapOptions:
+  columns: 0
+
+# Optionally, tell it to ignore all environments (advanced)
+noIndentBlock:
+ begin: ''
+ end: ''

@@ -1,6 +1,6 @@
 from qgis.core import QgsProject
 
-layerTarget = QgsProject.instance().mapLayersByName("Copp")[0]
+layerTarget = QgsProject.instance().mapLayersByName("eu-countries-members")[0]
 print(layerTarget.name())
 
 for f in layerTarget.getFeatures():

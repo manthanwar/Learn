@@ -1,11 +1,11 @@
-from unidecode import unidecode
+import unidecode
 
 layers = iface.layerTreeView().selectedLayers()
 
 for layer in layers:
     print(layer.name())
     with edit(layer):
-        for feature in layer.selectedFeatures():
+        for feature in layer.hryFeatures():
             #length = feature.geometry().length()*2*np.pi*6371009/360
             #feature['length'] = round(length,0)
             #feature['bank']       = 'left'
@@ -19,7 +19,7 @@ for layer in layers:
             #feature['name'] = 'Elbe'
             #feature['riverBasin'] = 'Labe'
             #feature['riverBasin'] = ''
-            print(feature['name'], ' = ', feature['name'])
+            print(feature['name'], ' = ', feature['name_deunicode'])
             #layer.updateFeature(feature)
             
 

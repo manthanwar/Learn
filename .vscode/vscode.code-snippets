@@ -1,0 +1,88 @@
+{
+ "header": {
+  //   "scope": "c,cpp,java, javascript,typescript, php",
+  "description": "Create File Header Comment",
+  "prefix": ["header C, C++, Java, JavaScript, C#, PHP, ActionScript"],
+  "body": [
+   "/*",
+   "// =============================================================================",
+   "// File Name     : $TM_FILENAME",
+   "// Date Created  : $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE UTC $CURRENT_TIMEZONE_OFFSET",
+   "// description   : $1",
+   "// -----------------------------------------------------------------------------",
+   "// Author        : Amit Manohar Manthanwar",
+   "// Mailer        : manthanwar@hotmail.com",
+   "// WebURL        : https://manthanwar.github.io",
+   "// -----------------------------------------------------------------------------",
+   "// Copyright     : (c) $CURRENT_YEAR Amit Manohar Manthanwar",
+   "// License       : LICENSE.md",
+   "// =============================================================================",
+   "// Revision Log  | Author  | Description",
+   "// --------------+---------+----------------------------------------------------",
+   "// $CURRENT_DATE-$CURRENT_MONTH_NAME_SHORT-$CURRENT_YEAR   | AMM     | Initial Version",
+   "// --------------+---------+----------------------------------------------------",
+   "// =============================================================================",
+   "*/"
+  ]
+ },
+
+ "authorAmit": {
+  "prefix": ["Amit Manohar Manthanwar"],
+  "body": ["Amit Manohar Manthanwar"],
+  "description": "author name"
+ },
+
+ "authorAmitInitial": {
+  "prefix": ["Amit M. Manthanwar"],
+  "body": ["Amit M. Manthanwar"],
+  "description": "author name with middle initial"
+ },
+
+ "filename": {
+  "prefix": ["filename with extension"],
+  "body": ["${TM_FILENAME}"],
+  "description": "get the file name"
+ },
+
+ "filebase": {
+  "prefix": ["filename without extension"],
+  "body": ["${TM_FILENAME_BASE}"],
+  "description": "get the file base name"
+ },
+
+ "date-format-time-UTC": {
+  "description": "Create date and time",
+  "prefix": ["date: yyyy-mm-dd HH:MM UTC"],
+  "body": [
+   "$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE UTC $CURRENT_TIMEZONE_OFFSET"
+  ]
+ },
+
+ "date-format-time": {
+  "description": "Create date and time",
+  "prefix": ["date: yyyy-mm-dd MM:HH"],
+  "body": [
+   "$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE"
+  ]
+ },
+
+ "date-format-in-dash": {
+  "prefix": ["date: dd-mmm-yyyy"],
+  "body": ["$CURRENT_DATE-$CURRENT_MONTH_NAME_SHORT-$CURRENT_YEAR"],
+  "description": "get the date only for version revision"
+ },
+
+ "date-format-in-slash": {
+  // "scope": "tex,bibtex,latex,latex-class",
+  "prefix": ["date: dd/mmm/yyyy"],
+  "body": ["$CURRENT_DATE/$CURRENT_MONTH_NAME_SHORT/$CURRENT_YEAR"],
+  "description": "date in latex format"
+ },
+
+ "date-format-us-slash": {
+  // "scope": "tex,bibtex,latex,latex-class",
+  "prefix": ["date: yyyy/mm/dd"],
+  "body": ["$CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE"],
+  "description": "date in latex format"
+ }
+}

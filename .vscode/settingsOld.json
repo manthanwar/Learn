@@ -1,0 +1,548 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula",
+    "workbench.statusBar.visible": true,
+    "workbench.colorCustomizations": {
+        // "editor.background": "#333"
+    },
+
+    "editor.tokenColorCustomizations": {
+        "comments": "#baa",
+    },
+
+    "editor.tabSize": 4,
+    "editor.indentSize": 4,
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.fontFamily": "Fira Code, Source Code Pro, Consolas, monospace",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "300",
+    "editor.fontSize": 15,
+    // "editor.lineHeight": 20,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+
+    "editor.formatOnSaveMode": "modifications",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript"
+    ],
+
+    // "files.autoSave": "afterDelay",
+    "files.eol": "\n",
+    "files.associations": {
+        "*.cpp": "cpp"
+    },
+
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+    // "terminal.integrated.fontFamily": "Menlo for Powerline",
+    "terminal.integrated.fontFamily": "Fira Code, Source Code Pro, Consolas, monospace",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "300",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.copyOnSelection": true,
+
+    // "terminal.integrated.fontFamily": "Inconsolata for Powerline",
+
+    // "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+
+    // "terminal.integrated.fontFamily": "DejaVu Sans Mono for Powerline",
+
+
+
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "html.format.wrapAttributes": "force-aligned",
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.enable": true,
+    "[html]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.formatOnType": true,
+    },
+
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+
+    "json.format.keepLines": true,
+
+    "[json]": {
+        "editor.tabSize": 2,
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+
+
+    "[latex]": {
+        "editor.lineNumbers": "off",
+        "editor.minimap.enabled": false,
+        "editor.quickSuggestions": {
+            "other": "off",
+            "comments": "off",
+            "strings": "off"
+        }
+    },
+
+
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.autoBuild.interval": 3000,
+    "latex-workshop.latex.autoClean.run": "onFailed",
+    "latex-workshop.latex.recipe.default": "latex-dvips-ps2pdf",
+
+
+    "latex-workshop.intellisense.biblatexJSON.replace": { },
+    "latex-workshop.intellisense.package.enabled": true,
+    // "latex-workshop.view.pdf.ref.viewer": "external",
+    //  "latex-workshop.view.pdf.zoom": "page-fit",
+    // "latex-workshop.message.warning.show": false,
+    // "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+    "latex-workshop.showContextMenu": true,
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
+    // "latex-workshop.view.pdf.viewer": "external",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.watch.pdf.delay": 250,
+    "latex-workshop.view.pdf.external.viewer.command": "SumatraPDF",
+    "latex-workshop.view.pdf.external.viewer.args": [
+        "-forward-search",
+        "%TEX%",
+        "%LINE%",
+        "-reuse-instance",
+        "-inverse-search",
+        "\"cmd.exe\" /c code -r -g \"%f\":\"%l\"",
+        "%PDF%"
+    ],
+    "latex-workshop.view.pdf.external.synctex.command": "SumatraPDF",
+    "latex-workshop.view.pdf.external.synctex.args": [
+        "-forward-search",
+        "%TEX%",
+        "%LINE%",
+        "-reuse-instance",
+        "-inverse-search",
+        "\"cmd.exe\" /c code -r -g \"%f\":\"%l\"",
+        "%PDF%"
+    ],
+
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    "latex-workshop.synctex.synctexjs.enabled": true,
+
+    // "latex-workshop.view.pdf.color.light.pageColorsForeground":"#336699",
+    // "latex-workshop.view.pdf.color.light.backgroundColor":"#33996",
+
+
+    // "latex-workshop.view.pdf.viewer": "external",
+    // "latex-workshop.view.pdf.external.viewer.command": "C:/Users/amit/AppData/Local/SumatraPDF/SumatraPDF.exe",
+    // "latex-workshop.view.pdf.external.viewer.args": [
+    //     "--unique",
+    //     "%PDF%"
+    // ],
+    // "latex-workshop.view.pdf.external.synctex.command": "C:/Users/amit/AppData/Local/SumatraPDF/SumatraPDF.exe",
+    // "latex-workshop.view.pdf.external.synctex.args": [
+    //     "-forward-search",
+    //     "%TEX%",
+    //     "%LINE%",
+    //     "-reuse-instance",
+    //     "-inverse-search",
+    //     "\"C:\\Users\\amit\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" -r -g \"%f:%l\"",
+    //     "%PDF%"
+    // ],
+
+
+    // "\"C:/Users/amit/AppData/Local/Programs/Microsoft VS Code/Code.exe\" \"C:/Users/amit/AppData/Local/Programs/Microsoft VS Code/resources/app/out/cli.js\" -r -g \"%f\":\"%l\"",
+
+
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latex",
+            "command": "latex",
+            "args": [
+                "-time-statistics",
+                "-halt-on-error",
+                "-file-line-error",
+                // "-output-directory=TeXAux",
+                "-aux-directory=TeXAux",
+                "-synctex=-1",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": { }
+        },
+        {
+            "name": "dvips",
+            "command": "dvips",
+            "args": [
+                "-q",
+                "%DOCFILE%.dvi",
+                "-o",
+                "%DOCFILE%.ps"
+            ]
+        },
+        {
+            "name": "ps2pdf",
+            "command": "ps2pdf",
+            "args": [
+                "-dNOSAFER",
+                "%DOCFILE%.ps",
+                "%DOCFILE%.pdf"
+            ]
+        },
+        {
+            "name": "clean",
+            "command": "latexmk",
+            "args": [
+                "-C"
+            ]
+        },
+        {
+            "name": "auxdel",
+            "command": "make",
+            "args": [
+                "clean"
+            ]
+        },
+        {
+            "name": "auxrm",
+            "command": "rm",
+            "args": [
+                "-r",
+                "-f",
+                "TeXAux"
+            ]
+        },
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-auxdir=TeXAux",
+                "-bibtex-cond1",
+                "-dvi",
+                "ps",
+                "-pdfps",
+                "-view=pdf",
+                "-pvc",
+                "-quiet",
+                "-synctex=-1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": { }
+        },
+        {
+            "name": "lualatexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-lualatex",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": { }
+        },
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "xelatexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-xelatex",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": { }
+        },
+        {
+            "name": "latexmk_rconly",
+            "command": "latexmk",
+            "args": [
+                "%DOC%"
+            ],
+            "env": { }
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ],
+            "env": { }
+        },
+        {
+            "name": "rnw2tex",
+            "command": "Rscript",
+            "args": [
+                "-e",
+                "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
+            ],
+            "env": { }
+        },
+        {
+            "name": "jnw2tex",
+            "command": "julia",
+            "args": [
+                "-e",
+                "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"
+            ],
+            "env": { }
+        },
+        {
+            "name": "jnw2texmintex",
+            "command": "julia",
+            "args": [
+                "-e",
+                "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
+            ],
+            "env": { }
+        },
+        {
+            "name": "tectonic",
+            "command": "tectonic",
+            "args": [
+                "--synctex",
+                "--keep-logs",
+                "%DOC%.tex"
+            ],
+            "env": { }
+        }
+
+    ],
+    "latex-workshop.latex.recipes": [
+        // {
+        //     "name": "latexmk 🔃",
+        //     "tools": [
+        //         "latexmk"
+        //     ]
+        // },
+        {
+            "name": "latex-dvips-ps2pdf",
+            "tools": [
+                "latex",
+                "dvips",
+                "ps2pdf"
+            ]
+        },
+        {
+            "name": "latex -> bibtex -> dvips -> ps2pdf ",
+            "tools": [
+                "latex",
+                "bibtex",
+                "dvips",
+                "ps2pdf"
+            ]
+        },
+        {
+            "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "latexmk (latexmkrc)",
+            "tools": [
+                "latexmk_rconly"
+            ]
+        },
+        {
+            "name": "latexmk (lualatex)",
+            "tools": [
+                "lualatexmk"
+            ]
+        },
+        {
+            "name": "latexmk (xelatex)",
+            "tools": [
+                "xelatexmk"
+            ]
+        },
+        {
+            "name": "Compile Rnw files",
+            "tools": [
+                "rnw2tex",
+                "latexmk"
+            ]
+        },
+        {
+            "name": "Compile Jnw files",
+            "tools": [
+                "jnw2tex",
+                "latexmk"
+            ]
+        },
+        {
+            "name": "tectonic",
+            "tools": [
+                "tectonic"
+            ]
+        },
+        {
+            "name": "clean",
+            "tools": [
+                "clean",
+                "auxdel"
+            ]
+        },
+        {
+            "name": "latex",
+            "tools": [
+                "latex"
+            ]
+        },
+        {
+            "name": "dvips",
+            "tools": [
+                "dvips",
+            ]
+        },
+        {
+            "name": "ps2pdf",
+            "tools": [
+                "ps2pdf"
+            ]
+        },
+        {
+            "name": "bibex",
+            "tools": [
+                "bibtex"
+            ]
+        },
+
+
+        // {
+        //     "name": "xelatex",
+        //     "tools": [
+        //         "xelatex"
+        //     ],
+        // },
+        // {
+        //     "name": "pdflatex",
+        //     "tools": [
+        //         "pdflatex"
+        //     ]
+        // },
+        // {
+        //     "name": "xe->bib->xe->xe",
+        //     "tools": [
+        //         "xelatex",
+        //         "bibtex",
+        //         "xelatex",
+        //         "xelatex"
+        //     ]
+        // },
+        // {
+        //     "name": "pdf->bib->pdf->pdf",
+        //     "tools": [
+        //         "pdflatex",
+        //         "bibtex",
+        //         "pdflatex",
+        //         "pdflatex"
+        //     ]
+        // }
+    ],
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.snm",
+        "*.synctex(busy)",
+        "*.synctex.gz(busy)",
+        "*.nav",
+        "*.vrb",
+        "*.ps",
+        "*.dvi"
+    ],
+
+
+
+    "[markdown]": {
+        "editor.fontFamily": "Source Code Pro, monospace",
+        "editor.fontSize": 14,
+        "editor.lineHeight-Amit": 26,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 64,
+        "editor.lineNumbers": "off",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.minimap.enabled": false
+    },
+
+    "[plaintext][latex]": {
+        "editor.wordWrap": "on",
+    },
+
+    "prettier.useEditorConfig": false,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.semi": true,
+    "prettier.trailingComma": "none",
+    "prettier.printWidth": 100,
+    "prettier.singleAttributePerLine": true,
+
+    "python.defaultInterpreterPath": "C:\\Users\\amit\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+
+
+}

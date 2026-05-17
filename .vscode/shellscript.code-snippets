@@ -1,0 +1,39 @@
+{
+ "header": {
+  "scope": "shellscript,bash",
+  "description": "Create File Header Comment",
+  "prefix": ["header-bash"],
+  "body": [
+   "#!/bin/bash",
+   "# region header",
+   "# ==============================================================================",
+   "# File Name     : $TM_FILENAME",
+   "# Date Created  : $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE UTC $CURRENT_TIMEZONE_OFFSET",
+   "# description   : $1",
+   "# ------------------------------------------------------------------------------",
+   "# Author        : Amit Manohar Manthanwar",
+   "# Mailer        : manthanwar@hotmail.com",
+   "# WebURL        : https:#manthanwar.github.io",
+   "# ------------------------------------------------------------------------------",
+   "# Copyright     : (c) $CURRENT_YEAR Amit Manohar Manthanwar",
+   "# License       : LICENSE.md",
+   "# ==============================================================================",
+   "# Revision Log  | Author  | Description",
+   "# --------------+---------+-----------------------------------------------------",
+   "# $CURRENT_DATE-$CURRENT_MONTH_NAME_SHORT-$CURRENT_YEAR   | AMM     | Initial Version",
+   "# --------------+---------+-----------------------------------------------------",
+   "# ==============================================================================",
+   "# endregion header",
+  ""
+  ]
+ },
+ "Create Function": {
+		"prefix": "fn",
+		"body": [
+			"function $1() {",
+			"\t$0",
+			"}"
+		],
+		"description": "Creates a new Bash function"
+	}
+}

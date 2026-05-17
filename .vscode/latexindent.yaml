@@ -1,0 +1,23 @@
+# Default value of indentation
+# defaultIndent: "\t\t\t\t"
+
+defaultIndent: ''
+# maximumIndentation: ''
+
+indentRules:
+ itemize: ''
+ item: ''
+ enumerate: ''
+ figure: ''
+ center: ''
+ pspicture: ''
+ lstlisting: ''
+
+lookForAlignDelims:
+ bNiceMatrix: 0
+ alignat: 0
+
+verbatimEnvironments:
+ verbatim: 1
+ lstlisting: 1
+ minted: 1

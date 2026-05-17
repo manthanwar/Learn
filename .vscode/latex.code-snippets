@@ -1,0 +1,348 @@
+{
+ "header": {
+  "scope": "tex,bibtex,latex,latex-class",
+  "prefix": ["header-latex-pub"],
+  "body": [
+   "%===============================================================================",
+   "% region header",
+   "%-------------------------------------------------------------------------------",
+   "% File Name     : ${TM_FILENAME}",
+   "% File Created  : $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE UTC $CURRENT_TIMEZONE_OFFSET",
+   "% Description   : $1",
+   "%-------------------------------------------------------------------------------",
+   "% Author        : Amit Manohar Manthanwar",
+   "% Address       : Pune, Maharashtra, India",
+   "% Email         : manthanwar@hotmail.com",
+   "% Website       : https://manthanwar.github.io",
+   "%-------------------------------------------------------------------------------",
+   "% Copyright     : ©$CURRENT_YEAR Amit Manohar Manthanwar",
+   "% License       : Restricted",
+   "% License       : LaTeX Project Public License",
+   "%-------------------------------------------------------------------------------",
+   "% This program can be redistributed and/or modified under the terms",
+   "% of the LaTeX Project Public License Distributed from CTAN archives",
+   "% in directory macros/latex/base/lppl.txt.",
+   "%---------------+---------+-----------------------------------------------------",
+   "% Revision Log  | Author  | Description",
+   "%---------------+---------+-----------------------------------------------------",
+   "% $CURRENT_DATE-$CURRENT_MONTH_NAME_SHORT-$CURRENT_YEAR   | AMM     | Initial Version                                     ",
+   "%---------------+---------+-----------------------------------------------------",
+   "% endregion header",
+   "%===============================================================================",
+   "",
+   "$0"
+  ],
+  "description": "Insert front matter with current date and title based on file name."
+ },
+
+"revision": {
+  // "scope": "tex,bibtex,latex,latex-class",
+  "prefix": ["revision"],
+  "body": [
+    "% $CURRENT_DATE-$CURRENT_MONTH_NAME_SHORT-$CURRENT_YEAR   | AMM     | $1",
+    "%---------------+---------+-----------------------------------------------------"
+  ],
+  "description": "dated revision log"
+ },
+
+"class-book": {
+  "scope": "tex,latex,latex-class",
+  "prefix": ["class-book-pub"],
+  "body": [
+  "%===============================================================================",
+"% region Provide Class",
+"%-------------------------------------------------------------------------------",
+"\\def\\fileN{ammBook.cls}% name",
+"\\def\\fileC{ammBook}% class",
+"\\def\\fileV{v1.0.0}% version",
+"\\def\\fileD{2026/04/25}% date: yyyy/mm/dd or yyyy-mm-dd",
+"%-------------------------------------------------------------------------------",
+"\\NeedsTeXFormat{LaTeX2e}[2023-11-01]",
+"\\ProvidesClass{\\fileC}[\\fileD \\fileV (c) Amit Manohar Manthanwar]",
+"\\DeclareOption*{\\PassOptionsToClass{\\CurrentOption}{book}}",
+"\\ProcessOptions\\relax",
+"\\LoadClass{book}",
+"%-------------------------------------------------------------------------------",
+"% endregion Provide Class",
+"%===============================================================================",
+""
+  ],
+  "description": "provide book class .cls"
+ },
+
+"class-article": {
+  "scope": "tex,latex,latex-class",
+  "prefix": ["class-article"],
+  "body": [
+   "%===============================================================================",
+"% region Provide Class",
+"%-------------------------------------------------------------------------------",
+   "\\def\\fileN{${TM_FILENAME}}% name",
+   "\\def\\fileC{${TM_FILENAME_BASE}}: class",
+   "\\def\\fileV{v1.0.0}% version",
+   "\\def\\fileD{$CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE}% date: yyyy/mm/dd or yyyy-mm-dd'",
+"%-------------------------------------------------------------------------------",
+   "\\NeedsTeXFormat{LaTeX2e}[2023-11-01]",
+   "\\ProvidesClass{\\fileC}[\\fileD \\fileV (c) Amit Manohar Manthanwar]",
+   "\\DeclareOption*{\\PassOptionsToClass{\\CurrentOption}{article}}",
+   "\\ProcessOptions\\relax",
+   "\\LoadClass{article}",
+"%-------------------------------------------------------------------------------",
+"% endregion Provide Class",
+   "%===============================================================================",
+   ""
+  ],
+  "description": "provide article class .cls"
+ },
+
+"package": {
+  "scope": "tex,latex",
+  "prefix": ["package-Provides-Package"],
+  "body": [
+  "%===============================================================================",
+"% region Provide Package",
+"%-------------------------------------------------------------------------------",
+   "\\def\\fileN{${TM_FILENAME}}% name",
+   "\\def\\fileP{${TM_FILENAME_BASE}}% package",
+   "\\def\\fileV{1.0.0}% version ",
+   "\\def\\fileD{$CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE}% date: yyyy/mm/dd or yyyy-mm-dd'",
+"%-------------------------------------------------------------------------------",
+   "\\NeedsTeXFormat{LaTeX2e}[2023-11-01]",
+   "\\ProvidesPackage{\\fileP}[\\fileD \\fileV (c) Amit Manohar Manthanwar]",
+  "%-------------------------------------------------------------------------------",
+"% endregion Provide Package",
+   "%===============================================================================",
+   ""
+  ],
+  "description": "provide package .sty"
+ },
+
+"package-expl3": {
+  "scope": "tex,latex",
+  "prefix": ["package-Provides-Package-Expl3"],
+  "body": [
+"%===============================================================================",
+"% region Provide Package Expl3",
+"%-------------------------------------------------------------------------------",
+   "\\def\\fileN{${TM_FILENAME}}% name",
+   "\\def\\fileP{${TM_FILENAME_BASE}}% package",
+   "\\def\\fileV{1.0.0}% version ",
+   "\\def\\fileD{$CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE}% date: yyyy/mm/dd or yyyy-mm-dd'",
+"%-------------------------------------------------------------------------------",
+    "\\NeedsTeXFormat{LaTeX2e}[2023-11-01]",
+   "\\ProvidesExplPackage{\\fileP}{\\fileD}{\\fileV}{\\fileP (c) Amit M. Manthanwar}",
+"%-------------------------------------------------------------------------------",
+"% endregion Provide Package Expl3",
+   "%===============================================================================",
+   ""
+  ],
+  "description": "provide package expl3 .sty"
+ },
+
+ "premble-article-pst-icon": {
+"scope": "tex,latex",
+"prefix": ["preamble-article-pst-icon"],
+"body": [
+  "%==============================================================================",=
+"% region article preamble - pst-icon",
+"%------------------------------------------------------------------------------",-
+"\\documentclass[11pt,a4paper]{pst-icon}",
+"%------------------------------------------------------------------------------",-
+"% Packages",
+"\\RequirePackage{pst-${1:package}}",
+"%------------------------------------------------------------------------------",-
+"\\title{\\textsf{pst-${1:package}}: A PostScript $2 Package}",
+"\\author{Amit Manohar Manthanwar}",
+"\\date{\\today}",
+"%------------------------------------------------------------------------------",-
+"\\begin{document}",
+"%------------------------------------------------------------------------------",-
+"\\setlength{\\parskip}{15pt}",
+"\\setlength{\\baselineskip}{13pt}",
+"%------------------------------------------------------------------------------",-
+"% endregion article preamble - pst-icon",
+"%==============================================================================",=
+"",
+"%==============================================================================",=
+"% region Sections",
+"%------------------------------------------------------------------------------",-
+"\\section{Introduction}",
+"$3",
+"%------------------------------------------------------------------------------",-
+"% endregion Sections",
+"%==============================================================================",=
+"",
+"%==============================================================================",=
+"\\end{document}",
+"%==============================================================================",=
+  ],
+  "description": "preamble for article using pst-icon.cls"
+ },
+
+"region": {
+"scope": "tex,latex,latex-class",
+"prefix": ["region-pub"],
+"body": [
+ "%===============================================================================",
+ "% region ${1:ComponentName}",
+ "%-------------------------------------------------------------------------------",
+ "$0",
+ "%-------------------------------------------------------------------------------",
+ "% endregion ${1:ComponentName}",
+ "%===============================================================================",
+ ""
+  ],
+  "description": "create foldable region"
+ },
+
+"page-size": {
+  "scope": "tex,latex,latex-class",
+  "prefix": ["page-size-pub"],
+  "body": [
+    "%===============================================================================",
+"% region Page Size",
+"%-------------------------------------------------------------------------------",
+"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+"%|<--- \\paperwidth \\paperheight  --->|%",
+"%|<->| \\hoffset                      |%",
+"%|   | \\voffset                      |%",
+"%|___|____________________________ __|%",
+"%|   |<->| 1in + \\oddsidemargin   |  |%",
+"%|   |<->| 1in + \\evensidemargin  |  |%",
+"%|   |   |------------------------|  |%",
+"%|   |   | 1in + \\topmargin       |  |%",
+"%|   |   |------------------------|  |%",
+"%|   |   | HEADER \\headheight     |  |%",
+"%|   |   |------------------------|  |%",
+"%|   |   | \\headsep               |  |%",
+"%|   |   |========================|  |%",
+"%|   |   | TEXT  \\topskip         |  |%",
+"%|   |   |       \\textheight      |  |%",
+"%|   |   |<---   \\textwidth   --->|  |%",
+"%|   |   |                        |  |%",
+"%|<-1->| | \\marginparwidth        |  |%",
+"%|   | |2| \\marginparsep          |  |%",
+"%|   |   |                        |  |%",
+"%|   |   |========================|  |%",
+"%|   |   | \\footskip              |  |%",
+"%|   |   |------------------------|  |%",
+"%|   |   | FOOTER \\footheight     |  |%",
+"%|   |   |------------------------|  |%",
+"%|___|____________________________|__|%",
+"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+"%-------------------------------------------------------------------------------",
+"\\paperwidth     = 210mm     %% 597pt     %% = 8.5in",
+"\\paperheight    = 297mm     %% 845pt     %% = 11in",
+"\\hoffset        = -5.4mm    %% offset for printer's left margin",
+"\\voffset        = -25.4mm   %% offset for printer's top margin",
+"\\oddsidemargin  = 0mm       %% Real leftmargin = 1.0 in",
+"\\evensidemargin = 0mm       %% Real leftmargin = 1.0 in",
+"\\topmargin      = 0mm       %% Real topmargin = (140 - 68) / 144 = 0.5in",
+"\\headheight     = 15mm      %% Height of the header",
+"\\headsep        = 5mm       %% Separation between header and main text",
+"\\footskip       = 5mm       %% Separation between footer and main text",
+"\\textwidth      = 170mm     %% 432pt = 6in = 152.4mm",
+"\\textheight     = 262mm     %% 10in",
+"%-------------------------------------------------------------------------------",
+"\\pdfpagewidth  = \\paperwidth  %% Width of the PDF page to create",
+"\\pdfpageheight = \\paperheight %% Height of the PDF page to create",
+"%-------------------------------------------------------------------------------",
+"%% Letter Paper = 8.5 x 11'' = 612 x 792 pt = 216 x 279 mm",
+"%% A4 Paper     = 8.27 x 11.69'' = 597 x 845 pt = 210 x 297 mm",
+"%% 72pt = 1in = 25.4mm",
+"%-------------------------------------------------------------------------------",
+"\\newcommand{\\testPageSize}{%",
+"\\psline[unit=1mm,linecolor=black,linewidth=4pt,origin={-20,10}](0,0)(20,0)%",
+"\\psline[unit=1mm,linecolor=black,linewidth=4pt,origin={170,10}](0,0)(20,0)%",
+"\\psline[unit=1mm,linecolor=blue,linewidth=4pt,origin={0,0}](0,0)(170,0)%",
+"\\psline[unit=1mm,linecolor=red,linewidth=4pt,origin={0,0}](0,0)(0,-20)%",
+"\\psline[unit=1mm,linecolor=teal,linewidth=4pt,origin={0,0}](0,0)(0,260)%",
+"\\psline[unit=1mm,linecolor=blue,linewidth=4pt,origin={10,260}](0,0)(0,20)%",
+"}",
+"%-------------------------------------------------------------------------------",
+"% endregion Page Size"
+"%==============================================================================="
+  ],
+  "description": "create region"
+ },
+
+"eqnarray": {
+  "scope": "tex,latex",
+  "prefix": ["eqn"],
+  "body": ["\\begin{eqnarray}", "\t$0", "\\end{eqnarray}"],
+  "description": "Insert eqnarray environment."
+ },
+
+"eqnarray starred": {
+  "scope": "tex,latex",
+  "prefix": ["eqns"],
+  "body": ["\\begin{eqnarray*}", "\t$0", "\\end{eqnarray*}"],
+  "description": "Insert eqnarray starred environment."
+ },
+
+"pspicture": {
+  "scope": "tex,latex,latex-class",
+  "prefix": ["pspicture"],
+  "body": [
+"\\begin{figure}[!h]",
+"\\centering%",
+"% \\resizebox{0.97\\textwidth}{!}{%",
+"\\sffamily\\tiny%\\scriptsize\\tiny%",
+"%\\psset{unit=10mm}",
+"\\begin{pspicture}[saveNodeCoors](0,0)(17,8)",
+"%-------------------------------------------------------------------------------",
+"\\psgrid[subgriddiv=5, gridcolor=gray!50, subgridcolor=gray!20, gridlabels=8pt, ","gridlabelcolor=red, gridwidth=0.1mm,subgridwidth=0.1mm]% griddots=4,subgriddots=10,",
+"%-------------------------------------------------------------------------------",
+"\\psset{unit=1mm, fillstyle=none,linestyle=solid,linewidth=0.4,linecolor=blue}%",
+"%-------------------------------------------------------------------------------",
+"\\psset{linecolor=blue,linewidth=0.2}%",
+"\\rput(20,10){\\pscircle(0,0){10}}%",
+"%-------------------------------------------------------------------------------",
+"\\end{pspicture}%",
+"% }% \\resizebox",
+"% \\caption{}",
+"\\end{figure}",
+""
+],
+"description": "create pspicture region"
+},
+
+"pspicturePapersizes": {
+  "scope": "tex,latex,latex-class",
+  "prefix": ["pspicture-papersizes"],
+  "body": [
+"\\begin{figure}[!ht]",
+"\\centering%",
+"% \\resizebox{0.97\\textwidth}{!}{%",
+"\\sffamily\\tiny%\\scriptsize\\tiny%",
+"%\\psset{unit=10mm}",
+"% Landscape",
+"% \\begin{pspicture}[saveNodeCoors](0,0)(115,80)%      a0 841 x 1189",
+"% \\begin{pspicture}[saveNodeCoors](0,0)(80,55.4)%     a1 594 x 841",
+"% \\begin{pspicture}[saveNodeCoors](0,0)(55.4,38)%     a2 420 x 594",
+"% \\begin{pspicture}[saveNodeCoors](0,0)(38,25.7)%     a3 297 x 420",
+"\\begin{pspicture}[saveNodeCoors](0,0)(25.7,17)%     a4 210 x 297",
+"% Portrait",
+"% \\begin{pspicture}[saveNodeCoors](0,0)(80,115)%      a0 841 x 1189",
+"% \\begin{pspicture}[saveNodeCoors](0,0)(55.4,80)%     a1 594 x 841",
+"% \\begin{pspicture}[saveNodeCoors](0,0)(38,55.4)%     a2 420 x 594",
+"% \\begin{pspicture}[saveNodeCoors](0,0)(25.7,38)%     a3 297 x 420",
+"% \\begin{pspicture}[saveNodeCoors](0,0)(17,25.7)%     a4 210 x 297",
+"%-------------------------------------------------------------------------------",
+"\\psgrid[subgriddiv=5, gridcolor=gray!50, subgridcolor=gray!20, gridlabels=8pt, ","gridlabelcolor=red, gridwidth=0.1mm,subgridwidth=0.1mm]% griddots=4,subgriddots=10,",
+"%-------------------------------------------------------------------------------",
+"\\psset{unit=1mm, fillstyle=none,linestyle=solid,linewidth=0.4,linecolor=blue}%",
+"%-------------------------------------------------------------------------------",
+"\\psset{linecolor=blue,linewidth=0.2}%",
+"\\rput(20,10){\\pscircle(0,0){10}}%",
+"%-------------------------------------------------------------------------------",
+"\\end{pspicture}%",
+"% }% \\resizebox",
+"% \\caption{}",
+"\\end{figure}",
+""
+],
+"description": "create pspicture region for paper sizes"
+},
+
+}

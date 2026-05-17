@@ -1,0 +1,8072 @@
+# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-5-1.html
+Theme = Light
+FixedPageUI [
+	TextColor = #000000
+	BackgroundColor = #ffffff
+	SelectionColor = #f5fc0c
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+	InvertColors = false
+	HideScrollbars = true
+]
+ComicBookUI [
+	WindowMargin = 0 0 0 0
+	PageSpacing = 4 4
+	CbxMangaMode = false
+]
+ChmUI [
+	UseFixedPageUI = false
+]
+
+SelectionHandlers [
+]
+ExternalViewers [
+]
+
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+ZoomIncrement = 0
+
+PrinterDefaults [
+	PrintScale = shrink
+]
+ForwardSearch [
+	HighlightOffset = 0
+	HighlightWidth = 15
+	HighlightColor = #6581ff
+	HighlightPermanent = true
+]
+Annotations [
+	HighlightColor = #ffff00
+	UnderlineColor = #00ff00
+	SquigglyColor = #ff00ff
+	StrikeOutColor = #ff0000
+	FreeTextColor =
+	FreeTextSize = 12
+	FreeTextBorderWidth = 1
+	TextIconColor = #ffff00
+	TextIconType =
+	DefaultAuthor =
+]
+
+RememberOpenedFiles = true
+RememberStatePerDocument = true
+RestoreSession = false
+UiLanguage = en
+InverseSearchCmdLine = "cmd.exe" /c code -r -g "%f:%l"
+EnableTeXEnhancements = true
+DefaultDisplayMode = automatic
+DefaultZoom = fit page
+Shortcuts [
+]
+EscToExit = false
+ReuseInstance = true
+ReloadModifiedDocuments = true
+
+MainWindowBackground = #80fff200
+FullPathInTitle = false
+ShowMenubar = true
+ShowToolbar = true
+ShowFavorites = false
+ShowToc = true
+NoHomeTab = false
+TocDy = 0
+SidebarDx = 250
+ToolbarSize = 18
+TabWidth = 300
+TreeFontSize = 0
+TreeFontWeightOffset = 0
+TreeFontName = automatic
+SmoothScroll = false
+ShowStartPage = true
+CheckForUpdates = true
+WindowState = 1
+WindowPos = 953 0 972 1032
+UseTabs = true
+UseSysColors = false
+CustomScreenDPI = 0
+
+FileStates [
+	[
+		FilePath = D:\GitHub\Publications\Lectures\Mathematics\Interpolation\interpolation.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 264.358
+		PageNo = 7
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = D:\GitHub\Publications\Lectures\Mathematics\Basics\basics.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 255.563
+		PageNo = 3
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = D:\Library\Software\LaTeX\pst-plot-doc.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 46.8058 827.917
+		PageNo = 4
+		Zoom = 270
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1 5
+	]
+	[
+		FilePath = D:\Library\Software\LaTeX\l3draw.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 96.3753 178.625
+		PageNo = 12
+		Zoom = 300
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1 18
+	]
+	[
+		FilePath = D:\Library\Software\LaTeX\pst-user.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 100.875 462.125
+		PageNo = 54
+		Zoom = 300
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Library\Software\LaTeX\expl3-interface3.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 765.656
+		PageNo = 95
+		Zoom = 400
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-art\charts\pst-chart-timeseries.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 7
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 389.438
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Library\Software\LaTeX\expl3a.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 12
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Library\Software\LaTeX\expl3.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 94.8753 445.375
+		PageNo = 15
+		Zoom = 300
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-art\charts\pst-table.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-art\pst-verb.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 626.063
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 2
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-art\pst-listings.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 87.9379
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = true
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Health\Smart-Healthcare\Letters\eoi-sabina-ziemian-20260417.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-art\logos\pst-logos.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 83.7505
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Health\Smart-Healthcare\Letters\eoi-anand-srivastava-20260417.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\templates\letters\amm-letter.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CV\2026\cv-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-art\pst-csv.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 383.545
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-art\Mindmaps\mm-mathematics.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 93.1879
+		PageNo = 2
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-art\Mindmaps\mm-smart-healthcare.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CV\2026\cv-amit-grants.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CV\2026\cv-amit-pm.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Lectures\Mathematics\Roots\roots.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Law\Proposals\UK-Oxford\proposal-law.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 829.191
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = true
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Law\Talks\smart-justice-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\templates\vitae\europass-cv-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 9
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Government\World-Bank\cl-amit-wbg-energy-20260401.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\FI-Lut\cv-amit-pm.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 6
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\FI-Lut\cl-amit-lut-grant-20261003.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 330.155
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Travel\India\20251209-Pune-Lucknow\8139978602.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 180.048
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Conferences\IN-AI-Impact-Summit-2026\manthanwar-in-ai-impact-2026-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-art\pst-icon-box.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 51.0227
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-art\ornaments\pst-art-ornament.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 116.888 289.538
+		PageNo = 3
+		Zoom = 1000
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Hackathon\IN-AP-MSME-DPR-Tool\ap-msme-dpr.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 10.7505
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = D:\GitHub\Publications\Hackathon\IN-AP-MSME-DPR-Tool\ap-msme-dpr-book.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 12.3006
+		PageNo = 5
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-art\documents\pst-art-document.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 52.7505
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Certificates\dolphin-certificate-university-pune-1999.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Certificates\dolphin-certificate-maharashtra-ssc-1993.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\data-certificates\faqs-cccbbbcom-20251028-data-dolphin-faqs-main.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = true
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\data-certificates\faqs-bbbbbbcom-20251028-data-dolphin-faqs-main.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = true
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\data-certificates\faqs-aaabbbcom-20251027-data-dolphin-faqs-main.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 8
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = true
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\data-certificates\amm-pst-invoice.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 274.313
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\data-certificates\invoice-aaabbbcom-1761537417285.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 275.438
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Certificates\dolphin-certificate-maharashtra-hsc-1995.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\certificate\dolphin-certificate-maharashtra-ssc-1993.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\certificate\dolphin-certificate-maharashtra-hsc-1995.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\data-certificates\ap-msme-dpr.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 134.813
+		PageNo = 2
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\certificate\dolphin-marksheet-maharashtra-hsc-1995.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\certificate\dolphin-marksheet-maharashtra-ssc-1993.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\certificate\dolphin-marksheet.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Certificates\certificat-design-catalogue.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 4
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\certificate\dolphin-certificate-university-pune-1999.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\certificate\dolphin-certificate.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\data-certificates\cert-1001-Agra.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 54.7505
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\data-certificates\cert-1048-Pune.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\data-certificates\Manthanwar-12345-20230814.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\data-certificates\aaa-aaaa-20250523.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\data-certificates\aaa-aaa-20250516.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 107.751
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\data-certificates\ccc-aa-20250507.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Certificates\marksheet-pune-university.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\Proposals\dolphin-skill-102-op.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\Proposals\dolphin-skill-101-op.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 124.688
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\Proposals\dolphin-one-pager.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\learn\learn-font-use.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 253.359
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = E:\Junk\bsamples.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 381.938
+		PageNo = 15
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 246
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\Proposals\dolphin-DI-faqs.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 66.67
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 246
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\geometric\pst-art-geometric-fold-06-04.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 143.719 216.094
+		PageNo = 15
+		Zoom = 400
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 246
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\Proposals\dolphin-DI-proposal.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 464.813
+		PageNo = 3
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 246
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\geometric\pst-art-geometric-ncert-math.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 89.0629
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 246
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\geometric\pst-art-geometric-flower.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 152.551
+		PageNo = 2
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = true
+		SidebarDx = 246
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\Proposals\nunito-samples.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 246
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Lectures\Mathematics\Geometry\geometry.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Lectures\Mathematics\Geometry\intersection.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 317.813
+		PageNo = 4
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\geometric\pst-art-geometric-fold-04-construction.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\Proposals\test.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 755.101
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 246
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\geometric\pst-art-geometric.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 51.9379
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\geometric\pst-art-geometric-fold-04.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-icon-box.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = true
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-icon-geometric-islamic-doc.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 252.601
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\fp-math-geometry-doc.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 5.12525 815.875
+		PageNo = 1
+		Zoom = 300
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\DE-Thuenen\cl-amit-thuenen-ds-20250821.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\DE-Thuenen\cv-amit-dev.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 476.063
+		PageNo = 3
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\IN-Carbon-Market-2025\IN-Carbon-Market-2025.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\geometric\pst-art-kolam-9x9.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 37.0748
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = true
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-art\pst-art-ornament.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 48.3126 423.813
+		PageNo = 1
+		Zoom = 600
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\IN-Carbon-Market-2025\Talks\icm-forestry-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 4
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\IN-Carbon-Market-2025\Talks\in-carbon-market-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\geometric\pst-art-geometric-fold-06-04-learn.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 58.3129
+		PageNo = 3
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = D:\GitHub\Publications\Certificates\certificate-shane.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 6.3006
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Certificates\certificate-tcs-hackathon.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-art-logo-bapatla.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 331.411
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\DE-Thuenen\app-amit-thuenen-ds.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-art-logo-jps.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 18.6824
+		PageNo = 2
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-art-logo.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 89.0629
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-brochure-dolphin-publications.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 46.2505
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-product-brochure.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 3.18787
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Art\TeX-PST\draw-figures.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Certificates\certificate.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\Luxembourg-Institute\cl-amit-20250725.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\Siemens\cl-amit-siemens-apc-20250725.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 186.938
+		PageNo = 2
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\Siemens\cv-amit-siemens-apc-20250725.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 699.086
+		PageNo = 2
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\Bosch\cv-amit-phd.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\BP\cv-amit-dev.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\BP\cl-amit-bp-20250724.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 206.063
+		PageNo = 2
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Business\Bapatla\Business-Plan\bapatla-business-plan.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 397.688
+		PageNo = 2
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\Templates\Template-Business-Plan\template-project-plan.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\Templates\Template-Business-Plan\template-business-plan.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 34.6879
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\Aspentech\cl-amit-aspentech-20250704.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\Aspentech\cv-amit-dev.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 572.236
+		PageNo = 2
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\IN-UK-EU-Carbon-Market-Forestry\Talks\carbon-market-forestry-prop-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 504.346
+		PageNo = 17
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CV\2025\cv-amit-acad.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = E:\Backup-SeaGate320\Imperial\Documents\Admission\ATAS.xps
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 352.25
+		PageNo = 2
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IT-Politecnico-di-Milano\cv-amit-milan-20250321.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 442.247
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IT-Politecnico-di-Milano\cl-amit-milan-20250321.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 610.228
+		PageNo = 3
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IN-IISCR\cv-amit-pm-20250321.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\IN-UK-EU-Carbon-Market-Forestry\IN-Carbon-Market-2025.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IT-IMT-Lucca\cv-amit-20250321.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Lectures\Modelling\Tank\tank.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 178.186
+		PageNo = 2
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-icon-pid-doc.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 476.063
+		PageNo = 4
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Art\Figures-LaTeX\amm-pst-pids-doc.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 35.6375
+		PageNo = 2
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CV\2024\2025\cv-amit-acad.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 476.063
+		PageNo = 9
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CV\2024\2025\cv-amit-teach.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 476.063
+		PageNo = 8
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\Yokogawa\cp-amit-yokogawa-20250202.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 588.857
+		PageNo = 4
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Art\Figures-LaTeX\amm-pst-logos-doc.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 225.251
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Art\Figures-LaTeX\amm-pst-icons-doc.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 462.281
+		PageNo = 1
+		Zoom = 400
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IN-IISCR\cv-amit-20250321.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-fonts-doc.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 163.763 179.513
+		PageNo = 2
+		Zoom = 1000
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\font-test-noto.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Art\Figures-LaTeX\amm-pst-icons.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-product-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\Yokogawa\cv-amit-yokogawa-20250119.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 476.063
+		PageNo = 8
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\Yokogawa\cl-amit-yokogawa-20250119.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 334.236
+		PageNo = 8
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-art-dolphin.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\UK-Cambridge\cv-amit-cambridge-20250101.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 535.814
+		PageNo = 8
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\GE\cv-amit-ge-energy-20250101.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 61.6982
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Lectures\Modelling\Mass-Spring-Damper\mass-spring-damper.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 73.8753 194.875
+		PageNo = 2
+		Zoom = 300
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IN-IIM-A\cv-amit-in-iima-20241215.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IN-IIM-A\cl-amit-in-iima-20241215.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IN-IIM-A\cv-europass-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 7
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex-data\amit-mailer-com.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amit-mailer-org.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 400
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-business-card.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 300
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-plots.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-letter.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\materichLetterTemplate.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 279.917
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-receipt.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-quotation.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-invoice.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amit-mailer-com.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\amm-pst-invoice-main.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 354.25
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\pst-art-logo-invoice.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 17.0629
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\src-tex\demo-art-logo.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 55.3129
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Lectures\Mathematics\statistics.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 262.334
+		PageNo = 9
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\SE-Uppsala\cl-amit-se-uppsala-wave-20241008.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 78.6253
+		PageNo = 1
+		Zoom = 300
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\SE-Uppsala\cv-amit-se-uppsala-wave-20241008.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 476.063
+		PageNo = 8
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\DE-IMPRS\cl-amit-imprs.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 809.294
+		PageNo = 3
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\de-IMPRS\cv-amit-imprs.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 198.188
+		PageNo = 5
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Website-Images-Dyanmic\Tex\draw.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IE-Maynooth\wave-converter-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 9
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\DE-Munich-DataScience\cl-amit-muds.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 354.25
+		PageNo = 3
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\DE-Munich-DataScience\cv-amit-muds.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 353.75
+		PageNo = 8
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IE-Maynooth\cv-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\CA-Dalhousie\cv-amit-optimization.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 717.821
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\NZ-Canterbury\cv-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 352.75
+		PageNo = 7
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IE-TCD\cv-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\DE-THWS\cv-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\NZ-Auckland\cv-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 353.75
+		PageNo = 7
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IE-Dublin\cv-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 7
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\NZ-Massey\cv-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 332.101
+		PageNo = 5
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\CA-Dalhousie\cv-amit-radio.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 8
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\NL-Twente\cv-amit-energy.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 444.188
+		PageNo = 6
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IE-MTU\cv-amit-mtu-energy.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\BE-KU-Leuven\cv-amit-kuleuven-image.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\BE-KU-Leuven\cl-amit-kuleuven-image.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CV\2024\Academic\cv-amit-res.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 7
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CV\2024\Academic\cv-amit-acad.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 239.701
+		PageNo = 9
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\vitae\europass-cv-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 9
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL6-2024-ZeroPollution-02-1-Two-Stage\Talks\eu-2024-zeropollution-talk-20240214.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-icon-sports-olympic-2024-talk-clr.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 11
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-icon-sports-olympic-2024-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Lectures\Geometry\geometry.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 204.188
+		PageNo = 3
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-icon-sports-olympic-2024.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 5
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-icon-colors.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 18.2505
+		PageNo = 2
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-icon-sports.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 54.9379
+		PageNo = 2
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\vitae\europasscv-amm.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 718.25
+		PageNo = 2
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\vitae\cv-amit-acad.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 9
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CV\2024\cv-amit-acad.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 682.313
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CVs\CV-2024\CV-2024-Europass-Acad\cv-amit-europass.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CVs\CV-2024\CV-2024-Europass\europasscv-amit-biber.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-icon-macros.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 34.3753 170.625
+		PageNo = 1
+		Zoom = 300
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-icons-river.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 264.846
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-icons-river-krishna.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-fonts-otf.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 205.189
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-river.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 12.1879
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-box.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 282.429
+		PageNo = 2
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-fonts.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 1.37525 818.625
+		PageNo = 7
+		Zoom = 300
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\test.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\junk\test.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 32.1006
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\DE-CISPA\cl-de-cispa-phd-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 793.25
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\FR-Paris-Sorbonne\Talks\fr-sorbonne-amit-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 7
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IT-Calabria\application.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\IT-Calabria\cl-amit-it-calabria.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\UK-Imperial\UK-Imperial-CSEP-2024\cv-amit-europass.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 62.0629
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\UK-Imperial\UK-Imperial-CSEP-2024\cv-amit-acad.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 245.438
+		PageNo = 9
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Art\TeX-PST-Figs\draw-figures.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 6
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\UK-Imperial\UK-Imperial-CSEP-2024\cl-amit-imperial-csep.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 42.2312
+		PageNo = 14
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\UK-Imperial\UK-Imperial-CSEP-2024\cv-europass-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 622.25
+		PageNo = 3
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\TeX-EURIA\main.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 476.063
+		PageNo = 21
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL6-2024-ZeroPollution-02-1-Two-Stage\EU-Horizon-CL6-2024-ZeroPollution-02-1-Two-Stage-I.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 41.7189 -1
+		PageNo = 1
+		Zoom = 400
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL6-2024-ZeroPollution-02-1-Two-Stage\EU-Horizon-CL6-2024-ZeroPollution-02-1-Two-Stage-I-figs.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 4
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\TCS\cv-amit-soft.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 535.814
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL6-2024-ZeroPollution-02-1-Two-Stage\Talks\eu-2024-zeropollution-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 588.857
+		PageNo = 4
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Talks\Innoeversity\amit2Innoeversity-20231118.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL6-2024-ZeroPollution-02-1-Two-Stage\Talks\eu-2024-zeropollution-talk-20240213.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 19
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\FR-Paris-Sorbonne\cl-amit-sorbonne.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 793.75
+		PageNo = 7
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Talks\Design-CSTR\design-cstr-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 185.433
+		PageNo = 9
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\IN-Pune-Center\Talk\indoUS-CoE.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 7
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Lectures\Control\Kalman\kalman-filter.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\PwC\cv-amit-supply-chain.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 85.247
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\PwC\cv-amit-ai.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 535.814
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\Honeywell\cv-amit-dev.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 476.063
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\Meta\cv-amit-dev.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\Templates\EU-RIA-Template\Template-EU-RIA.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 535.814
+		PageNo = 31
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Journals\Elsevier-Cultural-Heritage\elsarticle-ch-marian.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 322.688
+		PageNo = 2
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\US-TX-Austin\cl-amit-austin-Project-Manager-R_00024051.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\US-TX-Austin\cl-amit-austin-Project-Manager-Applied-Research.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\US-TX-Austin\cl-amit-austin-Academic-Technology-Manager.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\US-TX-Austin\cl-amit-austin-Industry-Relations.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 15.8565
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\US-TX-Austin\cl-amit-austin-Systemic-Transformation.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 266.73
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\US-TX-Austin\cl-amit-austin-univ-experience.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 534.244
+		PageNo = 2
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\US-TX-Austin\references.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 166.751
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\US-TX-Austin\cv-amit-admin.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 224.063
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-SK-01-Marian.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 29.2505
+		PageNo = 4
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 44
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-CZP.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 650.75
+		PageNo = 6
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-IT-Pisa.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\Team\RS\Horizon-ECC-07-09-2023-NZ\EU-Heritage-Concept-RS.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 150.311
+		PageNo = 8
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-CZU.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 162.173
+		PageNo = 3
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-DE.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 590.701
+		PageNo = 7
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = true
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-BA.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 47.7505
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\Letters\EU-Heritage-Letter-CZ-Museum.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\Letters\EU-Heritage-Support-Template-ceo.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 30.3752 46.6253
+		PageNo = 1
+		Zoom = 300
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-IE-IT.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 476.063
+		PageNo = 8
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-IT-IE.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-HU.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-BE.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 803.015
+		PageNo = 4
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 4
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\Talks\EU-Heritage-Talk-Roadmap.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 22.0989
+		PageNo = 12
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-CZ.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 698.101
+		PageNo = 2
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1 4
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-SK-01-Mariant.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 7
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-BA-01-Crafts.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\Talks\EU-Heritage-Talk-Work-Packages.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 7
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-SK-01.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 8
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1 3
+	]
+	[
+		FilePath = D:\GitHub\Publications\Art\Figures-LaTeX\TeXArt.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = 11.1006 -1
+		PageNo = 2
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\test-font.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\Talks\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01-Talk-Roadmap.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 14
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 937 0 990 1028
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\Air-India\cv-amit-man.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 228.626
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\India-DRDO\cl-amit-drdo.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = E:\Backup-SeaGate320\Imperial\Admission\ATAS.xps
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 380.25
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\L&T\cv-amit-dev.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\Talks\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01-Meeting-20230626.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\Business-Plan\EU-Heritage-Eucrite-Business-Plan.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 104.714
+		PageNo = 2
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-MK.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = true
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1 3
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\MK-EU-Horizon-CL2-2023-Heritage-ECCCH-01-01.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\Templates\Sample-EU-Proposal-Education\Sample-EU-Proposal-Education.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\Talks\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01-Talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 34.7505 62.2505
+		PageNo = 7
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 937 0 990 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\Talks\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01-Talk-20230512.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 20
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 937 0 990 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\Talks\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01-Talk-Roadmap-20230512.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 937 0 990 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\Talks\Talk-20230512.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 23
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 963 0 964 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\IN-G20-Priorities-2023\IN-G20-Priorities-2023-Agriculture.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 963 0 964 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Program Files\MiKTeX\doc\latex\qrcode\qrcode.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 963 0 964 1032
+		ShowToc = true
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\KPMG\cl-amit-industry.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 476.063
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 963 0 964 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\US-NSF-2023-CPS\US-NSF-2023-CPS.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 402.301
+		PageNo = 3
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 963 0 964 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = E:\Library\Funding\NSF\NSF_Proposal_Template\nsf_proposal.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 98.7505
+		PageNo = 4
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 963 0 964 1032
+		ShowToc = true
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1 5
+	]
+	[
+		FilePath = E:\Library\Funding\NSF\NSF_Proposal_Template\nsf_biosketch.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 963 0 964 1032
+		ShowToc = true
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = E:\Library\Funding\NSF\NSFtemplate\MASTER.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 381.938
+		PageNo = 4
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 963 0 964 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\UK-Surrey\cl-amit-research-impact-Surrey.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 963 0 964 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\UK-Surrey\cl-amit-support-Surrey.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 476.063
+		PageNo = 4
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 963 0 964 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\UK-Kings\cl-amit-support.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 963 0 964 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\Kings\cl-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 511.637
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 963 0 964 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\Swansea\cv-amit-math.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 963 0 964 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\Kings\cv-amit-research-support.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 963 0 964 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Business\Business-Plan-Education\Man-Business-Plan-Education.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 963 0 964 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\IN-G20-DIA-2023-Education\IN-G20-DIA-2023-Education-BP.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 13.5006 461.101
+		PageNo = 4
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\IN-G20-DIA-2023-Education\IN-G20-DIA-2023-Education.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 246.563
+		PageNo = 9
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\PopulationCouncil\cl-amit-Population.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\Imperial\cl-amit-imperial.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\India-G20-2023-Education\Talks\India-G20-2023-Education-20230321.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-01-08\EU-Horizon-CL2-2023-Heritage-01-08.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 524.825
+		PageNo = 15
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-01-07\Talks\EU-Horizon-CL2-2023-Heritage-01-07-Talk-20230310.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-01-07\EU-Horizon-CL2-2023-Heritage-01-07.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 169.688
+		PageNo = 16
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = d:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\EU-Horizon-EIC-2022-Pathfinder.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 82.8753 87.6253
+		PageNo = 21
+		Zoom = 300
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-01-07\Talks\EU-Horizon-CL2-2023-Heritage-01-07-Talk-20230308.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 75
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EDU-2023-Education\EU-Horizon-EDU-2023-Education.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 45.2505 70.7505
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Talks\EU-Horizon-2022-Pathfinder-Talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 31
+		Zoom = 75
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\Stanford\cl-amit-admin.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 233.09
+		PageNo = 3
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = E:\Flags\pst-flags-doc.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = 112.203 51.2657
+		PageNo = 3
+		Zoom = 2400
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\PST-Flags\pst-flags-doc.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 5
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Industry\GSK\cv-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 952 0 975 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\PST-Flags\pst-flags\tex\pst-flags-doc.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 952 0 975 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\Strathclyde\cl-amit-research-sr.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 74.2505
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\Strathclyde\cl-amit-research.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 24.3006 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Letters\Template-ammLetter.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 233.09
+		PageNo = 4
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = E:\Junk\pst-flags-test-CarLaTex-202201061\test.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Journals\teaching-mathematics-and-its-applications\ima-authoring-template\mathCrownTeach.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = 26.7505 226.751
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\Aberdeen\cv-amit-res.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 43.5939 643.781
+		PageNo = 1
+		Zoom = 400
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\Greenwich\cv-amit-res.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\Greenwich\cv-amit-academic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 163.004
+		PageNo = 9
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\Cambridge\cv-amit-res.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 36.5629 211.313
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\Oxford\cv-amit-res.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 7.5006 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2023-Energy\Talks\EU-Horizon-2023-Energy-Talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\MK-Energy-2022\mk-energy-2022-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 6
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Journals\mathematics-and-the-arts\InteractAPALaTeX\mathCrown.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 171.301
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Business\Invoices\amm-invoice-template.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Program Files\MiKTeX\doc\latex\enumitem\enumitem.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = true
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Art\Figures-LaTeX\ammFigrues.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Letters\Letter-of-Support\Sabina-Chyla-Ziemian\LoS-MAN-Sabina-MaxPlank-20221031.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Talks\EU-Horizon-2022-Pathfinder-Talk-20221013.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 231.177
+		PageNo = 19
+		Zoom = 66.67
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Talks\Talk2IET-EU-Horizon-2022-Pathfinder-20221013.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 106.244
+		PageNo = 22
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Talks\Talk2IET-EU-Horizon-2022-Pathfinder-20221005.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 7
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Talks\Talk-EU-Horizon-2022-Pathfinder.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 6
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Letters\EoI-IEP-EU-Horizon-EIC-2022-Pathfinder.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\GUT-EU-Horizon-EIC-2022-Pathfinder.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 358.688
+		PageNo = 2
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Letters\EoI-CAN-EU-Horizon-EIC-2022-Pathfinder.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 142.533
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Talks\Talk-EU-Horizon-2022-Pathfinder-20220921.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 98.2904
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\EU-Horizon-EIC-2022-Pathfinder-Talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 8
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Letters\EoI-BTU-EU-Horizon-EIC-2022-Pathfinder.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 75.9006
+		PageNo = 2
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 952 0 975 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Letters\EoI-GTECH-EU-Horizon-EIC-2022-Pathfinder.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 14.1006 315.301
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 952 0 975 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Letters\EoI-FU-Risse-EU-Horizon-EIC-2022-Pathfinder.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 952 0 975 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Letters\RFP-GrupaAzoty-EU-Horizon-EIC-2022-Pathfinder.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 952 0 975 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Talks\Talk2FU-EU-Horizon-2022-Pathfinder-20220919.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 115.501
+		PageNo = 2
+		Zoom = 75
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 952 0 975 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Talks\TalkTemplate\materichTalkTemplate.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 952 0 975 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Letters\RFP-Yara-EU-Horizon-EIC-2022-Pathfinder.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 186.35
+		PageNo = 2
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 952 0 975 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Letters\RFP-BP-EU-Horizon-EIC-2022-Pathfinder.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 952 0 975 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Letters\RFP-Bayer-EU-Horizon-EIC-2022-Pathfinder.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 231.566
+		PageNo = 2
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 952 0 975 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Talks\TalkTemplate\ammMaterichTalkTemplate.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 952 0 975 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Talks\TalkTemplate\ammTalk-20220424-1434.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 952 0 975 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Talks\TalkTemplate\ammTalk-20220423-2042.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 329.456
+		PageNo = 6
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 952 0 975 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\Letters\letterMaterichTemplate.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 952 0 975 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Letters\ammLetter.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\ammLetter.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Amit_M_Manthanwar\Publications\Proposals\EU-Horizon-EIC-2022-Pathfinder\EU-Horizon-EIC-2022-Pathfinder.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 208.534
+		PageNo = 4
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 243
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Amit_M_Manthanwar\Publications\Proposals\ProposalTemplate\EU-RIA.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 243
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Amit_M_Manthanwar\Publications\Proposals\EU-BTU\letter-SCZ-BTU-VPR.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 413.674
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Amit_M_Manthanwar\Publications\Proposals\EU-BTU\vision-BTU-MAT-Lab.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Amit_M_Manthanwar\Publications\Talks\TalkTemplate\ammTalk_20220424_1434.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1040
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Amit_M_Manthanwar\Publications\Proposals\EU-BTU\BTU-MAT-Lab.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 65.4379
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1040
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Amit_M_Manthanwar\Publications\Career\Letters\LetterTemplate\ammLetter.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1040
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Amit_M_Manthanwar\Publications\Talks\TalkTemplate\ammTalk_20220423_2042.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1040
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Amit_M_Manthanwar\Publications\Proposals\ProposalTemplate\EU-RIA-Template\EU-RIA.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 243
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Amit_M_Manthanwar\Publications\Proposals\EU-BTU\talk-MAT-BTU-VPR.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 261.916
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 243
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Amit_M_Manthanwar\Publications\Proposals\EU-BTU\vision-BTU-MAT-Lab-20220428-1948.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 243
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Amit_M_Manthanwar\Publications\Manuals\Fuel_Cell_Lab_Manual\trunk\PEM_Fuel_Cell_Lab_Manual.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1040
+		ShowToc = true
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Amit_M_Manthanwar\Publications\Proposals\ProposalTemplate\ammProposal.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1040
+		ShowToc = false
+		SidebarDx = 239
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Learn\LaTeX\LaTeX-Python\test-tex-python.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\PST-Flags\doc\pst-bezier-doc.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Academic\FR-Paris-Sorbonne\drawfig.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 130.461
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CVs\CV-2024\CV-2024-EuroPass\europasscv-latex-template.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 261.078
+		PageNo = 3
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CVs\CV-2024\CV-2024-EuroPass\europasscv-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 354.25
+		PageNo = 2
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CVs\CV-2024\europasscv_bib_en.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 76.8757
+		PageNo = 2
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Journals\Elsevier-Cultural-Heritage\elsarticle\elsarticle-template-num.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 206.813
+		PageNo = 3
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL6-2024-ZeroPollution-02-1-Two-Stage\eu-water-figs.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Art\Figures-LaTeX\amm-pst-invoices-main.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\Concept-BA\EU-Heritage-Concept-BA-01-Craft.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 391.247
+		PageNo = 3
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\Concept-BA\EU-Heritage-Concept-BA-01.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 606.901
+		PageNo = 7
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 2
+	]
+	[
+		FilePath = D:\GitHub\Publications\Proposals\EU-Horizon-CL2-2023-Heritage-ECCCH-01-01\EU-Heritage-Concept-SK.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 723.301
+		PageNo = 3
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1039
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1 3
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-icons\pst-icons-colors.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 373.484
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\fonts\opentype\public\taster\temp\test.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 123.281 315.094
+		PageNo = 2
+		Zoom = 400
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\learn\learn-highlight.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\learn\code-highlight.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 245
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Library\Software\LaTeX\interface3.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 218.403
+		PageNo = 183
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Health\Smart-Healthcare\Letters\eoi-sabina-20260417.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 354.25
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\templates\letters\cl-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\Organisations\AgoraThinkTanks\cl-amit.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Health\Smart-Consultation\docs\smart-visits.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 142.688
+		PageNo = 8
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-art\Mindmaps\smart-healthcare-org-mindmap.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\TeXMF\tex\latex\pst-art\Mindmaps\test.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\MindMaps\tikz-mindmap.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Health\Smart-Healthcare\Talks\smart-healthcare-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 4
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Career\CV\2026\cv-amit-un.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 250
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\Proposals\proposal-law.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 840.938
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\Proposals\dolphin-product-proposal-ai-impact-2026.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 112.564
+		PageNo = 6
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\Proposals\dolphin-product-proposal-school.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\Proposals\dolphin-proposal-smb.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\Proposals\dolphin-product-proposal-bank.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 150
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = D:\GitHub\Publications\Flyers\amm-pst-flyer-square.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 210.281 386.719
+		PageNo = 1
+		Zoom = 400
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\data-certificates\data-ap-msme-dpr.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 271.44
+		PageNo = 3
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1 3
+	]
+	[
+		FilePath = D:\GitHub\Publications\Conferences\IN-AI-Impact-Summit-2026\amit-in-ai-impact-2026-talk.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Reports\IN-AP-MSME-DPR-Tool\ap-msme-dpr.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 292.79
+		PageNo = 3
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Flyers\amm-pst-flyer-product.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 476.063
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Reports\IN-AP-MSME-DPR-Tool\ap-msme-dpr-book.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 28.8757
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = true
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1 14
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\Proposals\dolphin-proposal-fintech.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 6
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\data-certificates\invoice-apcmmcagmailcom-20251030.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 323.063
+		PageNo = 1
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\Publications\Innovations\Dolphin\Proposals\dolphin-faq.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 8
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = true
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\GitHub\JS-SVG-Client\doc\Examples\data-certificates\project-report.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 3
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1 3
+	]
+	[
+		FilePath = D:\GitHub\Publications\Reports\amm-pst-dpr-article.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = true
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+		TocState = 1
+	]
+	[
+		FilePath = D:\GitHub\Publications\Invoices\amm-pst-invoice.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 119.101
+		PageNo = 1
+		Zoom = 125
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 953 0 972 1032
+		ShowToc = false
+		SidebarDx = 248
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+]
+SessionData [
+]
+TimeOfLastUpdateCheck = 31249582 1306151435
+OpenCountWeek = 799
+
+# Settings below are not recognized by the current version
+EbookUI [
+	FontName = Georgia
+	FontSize = 12.5
+	TextColor = #5f4b32
+	BackgroundColor = #fbf0d9
+	UseFixedPageUI = false
+]
+AssociateSilently = false
+InverseSearchCmdLine = "C:\Users\amit\AppData\Local\Programs\Microsoft VS Code\Code.exe" -r -g "%f":"%l"
+EnableTeXEnhancements = true

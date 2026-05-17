@@ -1,0 +1,16 @@
+{
+ "author-date": {
+  "prefix": ["author dd-mmm-yyyy"],
+  "body": [
+   "**Amit Manohar Manthanwar** *$CURRENT_DATE-$CURRENT_MONTH_NAME_SHORT-$CURRENT_YEAR*"
+  ],
+  "description": "author name and date"
+ },
+ "comment": {
+  "prefix": ["comment"],
+  "body": [
+   "<!-- ${1:comment} -->"
+  ],
+  "description": "enter comment"
+ }
+}

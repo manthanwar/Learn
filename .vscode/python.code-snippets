@@ -1,0 +1,33 @@
+{
+ "header": {
+  "scope": "python",
+  "description": "Create File Header Comment",
+  "prefix": ["header-python"],
+  "body": [
+   "#! python3qgis",
+   "# region python",
+   "#! /c/Users/amit/AppData/Local/Programs/Python/Python312/python",
+   "#! /usr/bin/env python3",
+   "#! /c/Program Files/QGIS 3.26.0/apps/Python39/python",
+   "# ==============================================================================",
+   "# File Name     : $TM_FILENAME",
+   "# Date Created  : $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE UTC $CURRENT_TIMEZONE_OFFSET",
+   "# description   : $1",
+   "# ------------------------------------------------------------------------------",
+   "# Author        : Amit Manohar Manthanwar",
+   "# Mailer        : manthanwar@hotmail.com",
+   "# WebURL        : https:#manthanwar.github.io",
+   "# ------------------------------------------------------------------------------",
+   "# Copyright     : (c) $CURRENT_YEAR Amit Manohar Manthanwar",
+   "# License       : LICENSE.md",
+   "# ==============================================================================",
+   "# Revision Log  | Author  | Description",
+   "# --------------+---------+-----------------------------------------------------",
+   "# $CURRENT_DATE-$CURRENT_MONTH_NAME_SHORT-$CURRENT_YEAR   | AMM     | Initial Version",
+   "# --------------+---------+-----------------------------------------------------",
+   "# ==============================================================================",
+   "# endregion python",
+   ""
+  ]
+ }
+}

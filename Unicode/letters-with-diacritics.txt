@@ -1,0 +1,17 @@
+accChars = "àÀáÁâÂãÃäÄåÅčÇÐèÈéÉêÊěĚëËňřŠŽšžŸÌÍÎÏÑÒÓÔÕÖÙÚÛÜÝçìíîïðñòóôõöùúûüýÿ"
+  repChars = "cenrSZszYAAAAAACEEEEIIIIDNOOOOOUUUUYaaaaaaceeeeiiiidnooooouuuuyy"
+
+letters-with-diacritics
+
+ÉéÈèĔĕÊêẾếỀềỄễỂểÊ̄ê̄Ê̌ê̌ĚěËëẼẽĖėĖ́ė́Ė̃ė̃ȨȩḜḝĘęĘ́ę́Ę̃ę̃ĒēḖḗḔḕẺẻȄȅE̋e̋ȆȇẸẹỆệḘḙḚḛɆɇE̩e̩È̩è̩É̩é̩ᶒⱸ
+
+
+
+
+áÁčČďĎéÉěĚíÍňŇóÓřŘšŠťŤúÚůŮýÝžŽ
+aAcCdDeEeE
+
+accChars = "áčďéěíňóřšťúůýžÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ"
+repChars = "acdeeinorstuuyzACDEEINORSTUUYZ"
+
+

@@ -1,0 +1,39 @@
+{
+  "jsdoc class": {
+  "scope": "javascript",
+  "description": "Insert JS Doc Comment for Class",
+  "prefix": ["jsdoc class"],
+  "body": [
+   "/**",
+   "* @file $TM_FILENAME",
+   "* @since $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+   "* @description $1",
+   "* @author Amit M. Manthanwar &lt;manthanwar@hotmail.com&gt;",
+   "* @copyright (c) $CURRENT_YEAR Amit M. Manthanwar",
+   "*",
+   "* @param {Object} ",
+   "*",
+   "* @exports",
+   "* @class $TM_FILENAME_BASE",
+   "* @requires ",
+   "*/"
+  ]
+ },
+
+ "jsdoc method": {
+  "scope": "javascript",
+  "description": "Insert JS Doc Comment for Method or Function",
+  "prefix": ["jsdoc method"],
+  "body": [
+   "/**",
+   "* @description $1",
+   "*",
+   "* @param {$2} $3",
+   "* @returns {$4} $5",
+   "* @memberof $TM_FILENAME_BASE",
+   "* @example",
+   "* $7",
+   "*/"
+  ]
+ }
+}

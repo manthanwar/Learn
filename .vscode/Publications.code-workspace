@@ -1,0 +1,367 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"debug.console.fontSize": 16,
+		"explorer.sortOrder": "type",
+		"editor.tokenColorCustomizations": {
+			"comments": "#baa",
+			"[Default Dark+] [Dracula] [Dracula Soft]": {
+				"textMateRules": [
+					{
+						"scope": "markup.heading.markdown",
+						"settings": {
+							"foreground": "#8be9fd"
+						}
+					},
+					{
+						"scope": "heading.2.markdown",
+						"settings": {
+							"foreground": "#D2876D"
+						}
+					},
+					{
+						"scope": "heading.3.markdown",
+						"settings": {
+							"foreground": "#86C0D1"
+						}
+					},
+					{
+						"scope": "markup.inline.raw",
+						"settings": {
+							"foreground": "#62E884"
+						}
+					},
+					{
+						"scope": "markup.fenced_code.block.markdown",
+						"settings": {
+							"foreground": "#ffff00"
+						}
+					},
+					{
+						"scope": "punctuation.definition.markdown",
+						"settings": {
+							"foreground": "#62E884"
+						}
+					},
+					{
+						"name": "source.json-key",
+						"scope": "source.json support.type.property-name",
+						"settings": {
+							"foreground": "#8be9fd"
+						}
+					},
+					{
+						"name": "source.json-value",
+						"scope": "source.json string.quoted.double.json",
+						"settings": {
+							"foreground": "#f1fa8c"
+						}
+					},
+					{
+						"name": "source.json-quote",
+						"scope": [
+							"source.json punctuation.definition.dictionary.begin.json",
+							"source.json punctuation.definition.dictionary.end.json"
+						],
+						"settings": {
+							"foreground": "#f8f8f2",
+							"fontStyle": "bold"
+						}
+					},
+					{
+						"name": "source.json-array",
+						"scope": [
+							"source.json punctuation.definition.array.begin.json",
+							"source.json punctuation.definition.array.end.json"
+						],
+						"settings": {
+							"foreground": "#ff79c6",
+							"fontStyle": "bold"
+						}
+					},
+					{
+						"name": "source.json-colonComma",
+						"scope": "source.json meta.structure.dictionary.value.json",
+						"settings": {
+							"foreground": "#ffffff"
+						}
+					},
+					{
+						"name": "source.json.comments",
+						"settings": {
+							"foreground": "#ffffff"
+						}
+					},
+					{
+						"scope": [
+							"comment",
+							"entity.name.type.class",
+							"keyword",
+							"constant",
+							"storage.modifier",
+							"storage.type.class.js"
+						],
+						"settings": {
+							"fontStyle": "italic"
+						}
+					},
+					{
+						"name": "comment",
+						"scope": [
+							"punctuation.definition.comment.tex",
+							"comment.line.percentage.tex"
+						],
+						"settings": {
+							"foreground": "#aaa"
+						}
+					},
+					{
+						"scope": [
+							"support.function.general.tex"
+						],
+						"settings": {
+							"foreground": "#47f091"
+						}
+					},
+					{
+						"scope": [
+							"support.function.be.latex",
+							"support.function.general.tex",
+							"support.function.section.latex",
+							"support.function.textit.latex",
+							"support.function.texttt.latex",
+							"support.function.textbf.latex",
+							"support.function.textsc.latex",
+							"support.function.url.latex",
+							"support.function.footnote.latex"
+						],
+						"settings": { }
+					},
+					{
+						"scope": [
+							"variable.parameter.function.latex",
+							"constant.other.reference.citation.latex"
+						],
+						"settings": { }
+					},
+					{
+						"name": "source.txt",
+						"scope": "source.txt entity.name.type",
+						"settings": {
+							"foreground": "#ff0000"
+						}
+					},
+					{
+						"name": "comment",
+						"scope": [
+							"comment"
+						],
+						"settings": {
+							"foreground": "#fff"
+						}
+					},
+					{
+						"name": "class",
+						"scope": [
+							"storage.type.class"
+						],
+						"settings": {
+							"fontStyle": "italic bold"
+						}
+					},
+					{
+						"name": "functionParameter",
+						"scope": [
+							"storage.type.function"
+						],
+						"settings": {
+							"foreground": "#00ccff"
+						}
+					},
+					{
+						"name": "parameter",
+						"scope": [
+							"variable.parameter"
+						],
+						"settings": {
+							"fontStyle": ""
+						}
+					},
+					{
+						"name": "variable",
+						"scope": [
+							"variable"
+						],
+						"settings": {
+							"foreground": "#9CDCFE"
+						}
+					},
+					{
+						"name": "variableProperty",
+						"scope": [
+							"variable.other.property"
+						],
+						"settings": {
+							"foreground": "#a2e700"
+						}
+					},
+					{
+						"name": "variableProperty",
+						"scope": [
+							"support.variable.property"
+						],
+						"settings": {
+							"foreground": "#a2e700"
+						}
+					},
+					{
+						"name": "jsDoc-CommentClass",
+						"scope": [
+							"storage.type.class.jsdoc"
+						],
+						"settings": {
+							"fontStyle": ""
+						}
+					},
+					{
+						"name": "jsDoc-CommentClass",
+						"scope": [
+							"entity.name.type.instance.jsdoc"
+						],
+						"settings": {
+							"fontStyle": ""
+						}
+					},
+					{
+						"name": "cssClass",
+						"scope": [
+							"entity.other.attribute-name.class.css"
+						],
+						"settings": {
+							"fontStyle": ""
+						}
+					},
+					{
+						"name": "cssClassPseudo",
+						"scope": [
+							"entity.other.attribute-name.pseudo-element.css"
+						],
+						"settings": {
+							"fontStyle": "",
+							"foreground": "#a2e700"
+						}
+					}
+				]
+			}
+		},
+		"files.associations": {
+			"*.cpp": "cpp",
+			"numeric": "cpp",
+			"*.thor": "ruby",
+			"*.jsx": "javascript",
+			"Jenkinsfile*": "groovy",
+			"*.md.html": "markdown",
+			"*.clang-format": "yaml",
+			"*.xml": "html",
+			"*.svg": "html",
+			"*.hbs": "html",
+			"*.awk": "sh",
+			".code-snippets": "json"
+		},
+		"files.autoSave": "onFocusChange",
+		"html.format.enable": true,
+		"json.format.keepLines": true,
+		"latex-workshop.latex.bibDirs": [ ],
+		"latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+		"latex-workshop.synctex.afterBuild.enabled": true,
+		"latex-workshop.synctex.synctexjs.enabled": true,
+		"latex-workshop.showContextMenu": true,
+		"latex-workshop.view.pdf.viewer": "tab",
+		"latex-workshop.latex.watch.pdf.delay": 250,
+		"latex-workshop.view.pdf.external.viewer.command": "SumatraPDF",
+		"latex-workshop.view.pdf.external.viewer.args": [
+			"-forward-search",
+			"%TEX%",
+			"%LINE%",
+			"-reuse-instance",
+			"-inverse-search",
+			"\"cmd.exe\" /c code -r -g \"%f\":\"%l\"",
+			"%PDF%"
+		],
+		"latex-workshop.view.pdf.external.synctex.command": "SumatraPDF",
+		"latex-workshop.view.pdf.external.synctex.args": [
+			"-forward-search",
+			"%TEX%",
+			"%LINE%",
+			"-reuse-instance",
+			"-inverse-search",
+			"\"cmd.exe\" /c code -r -g \"%f\":\"%l\"",
+			"%PDF%"
+		],
+		"liveServer.settings.donotShowInfoMsg": true,
+		"material-icon-theme.folders.associations": {
+			"Bash": "scripts",
+			"CPP": "Android",
+			"JavaScript": "javascript",
+			"LaTeX": "docs",
+			"Mathematics": "delta",
+			"Node": "node",
+			"SQL": "stack"
+		},
+		"terminal.integrated.shellIntegration.decorationsEnabled": "both",
+		"terminal.integrated.stickyScroll.enabled": true,
+		"terminal.integrated.enableMultiLinePasteWarning": "auto",
+		"terminal.integrated.copyOnSelection": true,
+		"terminal.integrated.cursorBlinking": true,
+		"terminal.integrated.cursorStyle": "line",
+		"terminal.integrated.defaultProfile.windows": "Git Bash",
+		"terminal.integrated.fontFamily": "Fira Code, Source Code Pro, Consolas, monospace",
+		"terminal.integrated.fontSize": 14,
+		"terminal.integrated.fontWeight": "300",
+		"terminal.integrated.profiles.windows": {
+			"Git Bash": {
+				"source": "Git Bash"
+			},
+			"PowerShell": {
+				"source": "PowerShell",
+				"icon": "terminal-powershell"
+			},
+			"Command Prompt": {
+				"path": [
+					"${env:windir}\\Sysnative\\cmd.exe",
+					"${env:windir}\\System32\\cmd.exe"
+				],
+				"args": [ ],
+				"icon": "terminal-cmd"
+			}
+		},
+		"window.title": "File Name: '${activeEditorLong}' | Path:  ${folderPath}    | Status: ${dirty}",
+		"window.zoomLevel": 0,
+		"workbench.colorCustomizations": {
+			"editorRuler.foreground": "#666",
+			"[Dracula Soft]": {
+				"editor.selectionHighlightBackground": "#ffffff00",
+				"editor.findMatchHighlightBackground": "#ffffff00",
+				"editor.findMatchBorder": "#ffff00",
+				"editor.selectionHighlightBorder": "#ffffff",
+				"editor.lineHighlightBorder": "#272727",
+				"editor.selectionBackground": "#771835",
+				"editor.wordHighlightBackground": "#771835",
+				"editorCursor.foreground": "#00ff00",
+				"editor.findMatchBackground": "#000000",
+				"statusBar.debuggingBackground": "#410d18",
+				"statusBar.debuggingForeground": "#dddddd",
+				"tab.hoverBorder": "#fbff00",
+				"tab.unfocusedHoverForeground": "#fbff00"
+			}
+		},
+		"workbench.colorTheme": "Dracula Theme",
+		"workbench.editor.enablePreview": false,
+		"workbench.iconTheme": "material-icon-theme",
+		"workbench.statusBar.visible": true
+	}
+}

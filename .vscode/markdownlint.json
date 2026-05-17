@@ -1,0 +1,32 @@
+{
+    "MD0004": { // Unordered List Style - default * only, allow +, -
+        "style": "any"
+    },
+
+    "MD007": { // Nested Unordered list indentation
+        "indent": 2
+    },
+
+    // "MD022": false, // Headings should be surrounded by blank lines
+
+    "MD032": false, // Lists should be surrounded by blank lines
+
+    "MD024": { // Multiple headings with the same content
+        "siblings_only": true
+    },
+
+    "MD033": {
+        "allowed_elements": [
+            "a",
+            "circle",
+            "div",
+            "figcaption",
+            "figure",
+            "nobr",
+            "span",
+            "sup",
+            "svg"
+        ]
+    }
+}
+

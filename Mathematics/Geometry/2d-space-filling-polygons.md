@@ -1,5 +1,7 @@
 # 2D space filling with regular polygons
 
+https://youtu.be/A-eGmTDkhaA?feature=shared
+
 To fill a bounding rectangle perfectly with random polygons, the gold-standard approach is to use a Voronoi Diagram clipped to the rectangular bounds. This technique partitions a 2D space into contiguous, non-overlapping polygonal cells (convex polygons) based on distances to a set of randomly generated seed points.Here is the step-by-step algorithm and Python implementation to achieve this.The Algorithm1. Define the bounding box dimensions (width, height).
 2. Generate N random (x, y) seed points inside the box.
 3. Compute the Voronoi diagram for these seed points.
